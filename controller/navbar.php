@@ -24,10 +24,10 @@
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
-					  <li><a href="index.php">Instituto Porfirio Barbara Jacob</a></li>
+					  <li><a href="index.php">Inicio</a></li>
 			          <!-- <li><a href="index.html">Inicio</a></li> -->
-			          <li><a href="about.php">A cerca de la institución</li>
-			          <li><a href="courses.php">Cursos</a></li>
+			          <li><a href="about.php">Nosotros</a></li>
+			          <li><a href="courses.php">Programas</a></li>
 			          <!-- <li><a href="events.html">Events</a></li>
 			          <li><a href="gallery.html">Gallery</a></li>
 			          <li class="menu-has-children"><a href="">Blog</a>
@@ -36,7 +36,7 @@
 			              <li><a href="blog-single.html">Blog Single</a></li>
 			            </ul>
 			          </li>	 -->
-			          <li class="menu-has-children"><a href="">Paginas</a>
+			          <!-- <li class="menu-has-children"><a href="">Paginas</a>
 			            <ul>
 		              		<li><a href="course-details.html">Course Details</a></li>		
 		              		<li><a href="event-details.html">Event Details</a></li>		
@@ -48,8 +48,8 @@
 					            </ul>
 					          </li>					                		
 			            </ul>
-			          </li>					          					          		          
-			          <li><a href="contact.html">Contacto</a></li>
+			          </li>					          					          		           -->
+			          <li><a href="contact.php">Contacto</a></li>
 			        </ul>
 			      </nav><!-- #nav-menu-container -->		    		
 		    	</div>

@@ -103,7 +103,7 @@
 			<!-- End feature Area -->
 					
 			<!-- Start popular-course Area -->
-			<section class="popular-course-area section-gap">
+			<!-- <section class="popular-course-area section-gap">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-70 col-lg-8">
@@ -294,12 +294,12 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End popular-course Area -->
 			
 
 			<!-- Start search-course Area -->
-			<section class="search-course-area relative">
+			<!-- <section class="search-course-area relative">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">
 					<div class="row justify-content-between align-items-center">
@@ -348,7 +348,7 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End search-course Area -->
 			
 		
@@ -450,7 +450,7 @@
 			<!-- End upcoming-event Area -->
 						
 			<!-- Start review Area -->
-			<section class="review-area section-gap relative">
+			<!-- <section class="review-area section-gap relative">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">				
 					<div class="row">
@@ -579,11 +579,11 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End review Area -->	
 			
 			<!-- Start cta-one Area -->
-			<section class="cta-one-area relative section-gap">
+			<!-- <section class="cta-one-area relative section-gap">
 				<div class="container">
 					<div class="overlay overlay-bg"></div>
 					<div class="row justify-content-center">
@@ -596,11 +596,11 @@
 						</div>					
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End cta-one Area -->
 
 			<!-- Start blog Area -->
-			<section class="blog-area section-gap" id="blog">
+			<!-- <section class="blog-area section-gap" id="blog">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-70 col-lg-8">
@@ -665,12 +665,12 @@
 						</div>							
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End blog Area -->			
 			
 
 			<!-- Start cta-two Area -->
-			<section class="cta-two-area">
+			<!-- <section class="cta-two-area">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-8 cta-left">
@@ -681,7 +681,7 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End cta-two Area -->
 						
 			<!-- start footer Area -->		
