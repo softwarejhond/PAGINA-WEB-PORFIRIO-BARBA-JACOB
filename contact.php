@@ -4,7 +4,7 @@
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
+		<link rel="shortcut icon" href="img/logotitle.png">
 		<!-- Author Meta -->
 		<meta name="author" content="colorlib">
 		<!-- Meta Description -->
@@ -14,7 +14,7 @@
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Education</title>
+		<title>Contacto | IETDH PORFIRIO BARBARA JACOB</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
@@ -37,15 +37,15 @@
 			  		<div class="row">
 			  			<div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
 			  				<ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance"></i></a></li>
+								<li><a href="https://www.facebook.com/ipbarbajacob?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.instagram.com/ietd_porfirio_barba_jacob?igsh=MW9kcGhsdGoyYjl5bA%3D%3D&utm_source=qr" target="_blank"><i class="fa fa-instagram"></i></a></li>
+								<!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-behance"></i></a></li> -->
 			  				</ul>			
 			  			</div>
 			  			<div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
-			  				<a href="tel:+953 012 3654 896"><span class="lnr lnr-phone-handset"></span> <span class="text">+953 012 3654 896</span></a>
-			  				<a href="mailto:support@colorlib.com"><span class="lnr lnr-envelope"></span> <span class="text">support@colorlib.com</span></a>			
+			  				<a href="tel:+57 324 591 5081"><span class="lnr lnr-phone-handset"></span> <span class="text">+57 324 591 5081</span></a>
+			  				<a href="mailto:ieetdhporfiriobarbajacob@gmail.com"><span class="lnr lnr-envelope"></span> <span class="text">ieetdhporfiriobarbajacob@gmail.com</span></a>			
 			  			</div>
 			  		</div>			  					
 	  			</div>
@@ -53,22 +53,22 @@
 		    <div class="container main-menu">
 		    	<div class="row align-items-center justify-content-between d-flex">
 			      <div id="logo">
-			        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+			        <a href="index.php"><img src="img/LogoRend.png" alt="" title="" /></a>
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
-			          <li><a href="index.html">Home</a></li>
-			          <li><a href="about.html">About</a></li>
-			          <li><a href="courses.html">Courses</a></li>
-			          <li><a href="events.html">Events</a></li>
+			          <li><a href="index.php">Inicio</a></li>
+			          <li><a href="about.php">Nosotros</a></li>
+			          <li><a href="courses.php">Programas</a></li>
+			          <!-- <li><a href="events.html">Events</a></li>
 			          <li><a href="gallery.html">Gallery</a></li>
 			          <li class="menu-has-children"><a href="">Blog</a>
 			            <ul>
 			              <li><a href="blog-home.html">Blog Home</a></li>
 			              <li><a href="blog-single.html">Blog Single</a></li>
 			            </ul>
-			          </li>	
-			          <li class="menu-has-children"><a href="">Pages</a>
+			          </li>	 -->
+			          <!-- <li class="menu-has-children"><a href="">Paginas</a>
 			            <ul>
 		              		<li><a href="course-details.html">Course Details</a></li>		
 		              		<li><a href="event-details.html">Event Details</a></li>		
@@ -80,8 +80,8 @@
 					            </ul>
 					          </li>					                		
 			            </ul>
-			          </li>					          					          		          
-			          <li><a href="contact.html">Contact</a></li>
+			          </li>					          					          		           -->
+			          <li><a href="contact.php">Contacto</a></li>
 			        </ul>
 			      </nav><!-- #nav-menu-container -->		    		
 		    	</div>
@@ -95,9 +95,9 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Contact Us				
+								Contactanos				
 							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="contact.html"> Contact Us</a></p>
+							<p class="text-white link-nav"><a href="index.php">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="contact.php"> Contactanos</a></p>
 						</div>	
 					</div>
 				</div>
@@ -115,9 +115,9 @@
 									<span class="lnr lnr-home"></span>
 								</div>
 								<div class="contact-details">
-									<h5>Binghamton, New York</h5>
+									<h5>Medellin - Comuna 10 – La Candelaria</h5>
 									<p>
-										4343 Hinkle Deegan Lake Road
+									Calle 49 N° 45 – 26
 									</p>
 								</div>
 							</div>
@@ -126,8 +126,9 @@
 									<span class="lnr lnr-phone-handset"></span>
 								</div>
 								<div class="contact-details">
-									<h5>00 (958) 9865 562</h5>
-									<p>Mon to Fri 9am to 6 pm</p>
+									<h5>324 591 5081</h5>
+									<p>Lunes a Viernes 08:00a.m - 05:00p.m</p>
+									<p>Sabados 08:00a.m - 12:00p.m</p>
 								</div>
 							</div>
 							<div class="single-contact-address d-flex flex-row">
@@ -135,8 +136,8 @@
 									<span class="lnr lnr-envelope"></span>
 								</div>
 								<div class="contact-details">
-									<h5>support@colorlib.com</h5>
-									<p>Send us your query anytime!</p>
+									<h5>ieetdhporfiriobarbajacob@gmail.com</h5>
+									<p>Envíanos tu consulta en cualquier momento!</p>
 								</div>
 							</div>														
 						</div>
@@ -144,18 +145,18 @@
 							<form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
 								<div class="row">	
 									<div class="col-lg-6 form-group">
-										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+										<input name="name" placeholder="Nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
 									
-										<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+										<input name="email" placeholder="Correo" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
 
-										<input name="subject" placeholder="Enter subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text">
+										<input name="subject" placeholder="Asunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text">
 									</div>
 									<div class="col-lg-6 form-group">
-										<textarea class="common-textarea form-control" name="message" placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required=""></textarea>				
+										<textarea class="common-textarea form-control" name="message" placeholder="Mensaje" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required=""></textarea>				
 									</div>
 									<div class="col-lg-12">
 										<div class="alert-msg" style="text-align: left;"></div>
-										<button class="genric-btn primary" style="float: right;">Send Message</button>											
+										<button class="genric-btn primary" style="float: right;">Enviar mensaje</button>											
 									</div>
 								</div>
 							</form>	
@@ -234,14 +235,14 @@
 						</div>											
 					</div>
 					<div class="footer-bottom row align-items-center justify-content-between">
-						<p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> &amp; distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+					<p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | hecho <i class="fa fa-heart-o" aria-hidden="true"></i> por <a href="https://agenciaeaglesoftware.com/" target="_blank">EagleSoftware</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-						<div class="col-lg-6 col-sm-12 footer-social">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
+<div class="col-lg-6 col-sm-12 footer-social">
+							<a href="https://www.facebook.com/ipbarbajacob?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
+							<a href="https://www.instagram.com/ietd_porfirio_barba_jacob?igsh=MW9kcGhsdGoyYjl5bA%3D%3D&utm_source=qr" target="_blank"><i class="fa fa-instagram"></i></a>
+							<!-- <a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a> -->
 						</div>
 					</div>						
 				</div>

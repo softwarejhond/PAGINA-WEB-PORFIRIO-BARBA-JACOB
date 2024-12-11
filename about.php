@@ -14,7 +14,7 @@
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>A cerca de la institución | IETDH PORFIRIO BARBARA JACOB</title>
+		<title>Nosotros | IETDH PORFIRIO BARBARA JACOB</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
@@ -57,10 +57,10 @@
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
-					  <li><a href="index.php">Instituto Porfirio Barbara Jacob</a></li>
+					  <li><a href="index.php">Inicio</a></li>
 			          <!-- <li><a href="index.html">Inicio</a></li> -->
-			          <li><a href="about.php">A cerca de la intitución</a></li>
-			          <li><a href="courses.php">Cursos</a></li>
+			          <li><a href="about.php">Nosotros</a></li>
+			          <li><a href="courses.php">Programas</a></li>
 			          <!-- <li><a href="events.html">Events</a></li>
 			          <li><a href="gallery.html">Gallery</a></li>
 			          <li class="menu-has-children"><a href="">Blog</a>
@@ -69,7 +69,7 @@
 			              <li><a href="blog-single.html">Blog Single</a></li>
 			            </ul>
 			          </li>	 -->
-			          <li class="menu-has-children"><a href="">Paginas</a>
+			          <!-- <li class="menu-has-children"><a href="">Paginas</a>
 			            <ul>
 		              		<li><a href="course-details.html">Course Details</a></li>		
 		              		<li><a href="event-details.html">Event Details</a></li>		
@@ -81,8 +81,8 @@
 					            </ul>
 					          </li>					                		
 			            </ul>
-			          </li>					          					          		          
-			          <li><a href="contact.html">Contacto</a></li>
+			          </li>					          					          		           -->
+			          <li><a href="contact.php">Contacto</a></li>
 			        </ul>
 			      </nav><!-- #nav-menu-container -->		    		
 		    	</div>
@@ -107,7 +107,7 @@
 
 			<!-- Start feature Area -->
 			<section class="feature-area pb-120">
-				<div class="container">
+				<!-- <div class="container">
 					<div class="row">
 						<div class="col-lg-4">
 							<div class="single-feature">
@@ -150,7 +150,7 @@
 							</div>
 						</div>												
 					</div>
-				</div>	
+				</div>	 -->
 			</section>
 			<!-- End feature Area -->		
 
@@ -162,12 +162,11 @@
 							<img class="img-fluid" src="img/about-img.jpg" alt="">
 						</div>
 						<div class="col-lg-6 info-area-right">
-							<h1>Who we are
-							to Serave the nation</h1>
-							<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.</p>
+							<h1>Naturaleza Juridica</h1>
+							<p>Es una Institución de Educación para el Trabajo y el Desarrollo Humano, con 45 años de experiencia, creada de acuerdo con las normas que regulan el servicio público educativo en Colombia: Ley 115 de 1994, Decreto 1075 de 2015, Ley 1064 de 2006, Circular 21 de 2010, Circular No. 202060000240 del 6 de noviembre 2020 y Decreto 0923 de 2024.
 							<br>
 							<p>
-								inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
+							Propiedad de la INSTITUTO DE EDUCACIÓN PARA EL TRABAJO Y EL DESARROLLO HUMANO Y LA EDUCACIÓN FORMAL PORFIRIO BARBA JACOB LTDA, de carácter privado con personería jurídica y sede en el Distrito de Medellín, la Institución cuenta con licencia de funcionamiento según Resolución N° 03667 del 12 de marzo de 2012, Número de Identificación Tributario (NIT) No. 800093102-3 y Registro del Programa según Resolución No. 202050004921 del 23 enero de 2020.
 							</p>
 						</div>
 					</div>
@@ -181,8 +180,8 @@
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-70 col-lg-8">
 							<div class="title text-center">
-								<h1 class="mb-10">Goals to Achieve for the leadership</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
+								<h1 class="mb-10">Principios institucionales</h1>
+								<p>Los principios que orientarán las acciones de nuestra institución están enmarcados según los siguientes aspectos educativos</p>
 							</div>
 						</div>
 					</div>							
@@ -192,36 +191,60 @@
                             <!-- accordion 2 start-->
                             <dl class="accordion">
                                 <dt>
-                                    <a href="">Success</a>
+                                    <a href="">Desarrollo Integral del Saber</a>
                                 </dt>
                                 <dd>
-                                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam.
+								Fomentar el desarrollo humano, cultural, económico, tecnológico y social de la región y el distrito de Medellín, reconociendo la educación como la principal fuente del saber.
                                 </dd>
                                 <dt>
-                                    <a href="">Info</a>
+                                    <a href="">Construcción de una Cultura Ética</a>
                                 </dt>
                                 <dd>
-                                    Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. leo quam aliquet diam, congue laoreet elit metus eget diam.
+								Establecer un marco ético y cultural basado en el diálogo, el debate democrático, la inclusión, la diversidad de pensamiento y la tolerancia para resolver los conflictos de nuestra sociedad.
                                 </dd>
                                 <dt>
-                                    <a href="">Danger</a>
+                                    <a href="">Desarrollo de un Ciudadano Integral desde el Ser</a>
                                 </dt>
                                 <dd>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.
+								Formar ciudadanos integrales mediante la construcción y aceptación de valores éticos, culturales, científicos, tecnológicos y sociales.
                                 </dd>
                                 <dt>
-                                    <a href="">Warning</a>
+                                    <a href="">Mejora Continua</a>
                                 </dt>
                                 <dd>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.
+								Evaluar y fortalecer constantemente las debilidades y fortalezas de cada miembro de la comunidad educativa. Aportándole al factor humano un permanente acompañamiento durante el proceso.
                                 </dd>                                    
+                                <dt>
+                                    <a href="">Capacitación Constante</a>
+                                </dt>
+                                <dd>
+								Garantizar la actualización y formación continua de tutores, personal administrativo y de servicios.
+                                </dd>                                    
+                                <dt>
+                                    <a href="">Ambiente Pedagógico</a>
+                                </dt>
+                                <dd>
+								Crear un ambiente pedagógico y multidisciplinario que apoye la formación integral del ser humano.
+                                </dd>                                    
+                                <dt>
+                                    <a href="">Desarrollo de un Ciudadano Integral desde el Hacer</a>
+                                </dt>
+                                <dd>
+								Fomentar el desarrollo de habilidades y competencias que se adapten a una sociedad y a unos ciudadanos en permanente cambio y evolución y que son desafiados constantemente a través de nuevas y renovadas experiencias laborales.
+                                </dd>                                    
+                                <dt>
+                                    <a href="">Metodologías Innovadoras</a>
+                                </dt>
+                                <dd>
+								Implementar programas académicos y metodologías técnico-pedagógicas que mejoren cualitativamente la educación en consonancia con las características sociales, económicas, tecnológicas y culturales del entorno nacional, regional y local.
+                                </dd>                                                                       
                             </dl>
                             <!-- accordion 2 end-->
                         </div>
-                        <div class="col-md-6 video-right justify-content-center align-items-center d-flex relative">
+                        <!-- <div class="col-md-6 video-right justify-content-center align-items-center d-flex relative">
                         	<div class="overlay overlay-bg"></div>
 							<a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid mx-auto" src="img/play.png" alt=""></a>
-                        </div>
+                        </div> -->
                     </div>
 				</div>	
 			</section>
@@ -229,7 +252,7 @@
 					
 
 			<!-- Start search-course Area -->
-			<section class="search-course-area relative">
+			<!-- <section class="search-course-area relative">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">
 					<div class="row justify-content-between align-items-center">
@@ -278,11 +301,11 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End search-course Area -->			
 
 			<!-- Start review Area -->
-			<section class="review-area section-gap relative">
+			<!-- <section class="review-area section-gap relative">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">				
 					<div class="row">
@@ -411,11 +434,11 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End review Area -->					
 
 			<!-- Start cta-two Area -->
-			<section class="cta-two-area">
+			<!-- <section class="cta-two-area">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-8 cta-left">
@@ -426,7 +449,7 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End cta-two Area -->						    			
 
 			<!-- start footer Area -->		

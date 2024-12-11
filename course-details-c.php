@@ -1,10 +1,10 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 	<html lang="zxx" class="no-js">
 	<head>
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
+		<link rel="shortcut icon" href="img/logotitle.png">
 		<!-- Author Meta -->
 		<meta name="author" content="colorlib">
 		<!-- Meta Description -->
@@ -14,7 +14,7 @@
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Education</title>
+		<title>Programas | CONOCIMIENTOS ACADÉMICOS EN PREPARACIÓN PARA LA VALIDACIÓN DEL BACHILLERATO</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
@@ -37,15 +37,15 @@
 			  		<div class="row">
 			  			<div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
 			  				<ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance"></i></a></li>
+								<li><a href="https://www.facebook.com/ipbarbajacob?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.instagram.com/ietd_porfirio_barba_jacob?igsh=MW9kcGhsdGoyYjl5bA%3D%3D&utm_source=qr" target="_blank"><i class="fa fa-instagram"></i></a></li>
+								<!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-behance"></i></a></li> -->
 			  				</ul>			
 			  			</div>
 			  			<div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
-			  				<a href="tel:+953 012 3654 896"><span class="lnr lnr-phone-handset"></span> <span class="text">+953 012 3654 896</span></a>
-			  				<a href="mailto:support@colorlib.com"><span class="lnr lnr-envelope"></span> <span class="text">support@colorlib.com</span></a>			
+			  				<a href="tel:+57 324 591 5081"><span class="lnr lnr-phone-handset"></span> <span class="text">+57 324 591 5081</span></a>
+			  				<a href="mailto:ieetdhporfiriobarbajacob@gmail.com"><span class="lnr lnr-envelope"></span> <span class="text">ieetdhporfiriobarbajacob@gmail.com</span></a>			
 			  			</div>
 			  		</div>			  					
 	  			</div>
@@ -53,24 +53,24 @@
 		    <div class="container main-menu">
 		    	<div class="row align-items-center justify-content-between d-flex">
 			      <div id="logo">
-			        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+			        <a href="index.html"><img src="img/LogoRend.png" alt="" title="" /></a>
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
-			          <li><a href="index.html">Home</a></li>
-			          <li><a href="about.html">About</a></li>
-			          <li><a href="courses.html">Courses</a></li>
-			          <li><a href="events.html">Events</a></li>
+			          <li><a href="index.php">Inicio</a></li>
+			          <li><a href="about.php">Nosotros</a></li>
+			          <li><a href="courses.php">Programas</a></li>
+			          <!-- <li><a href="events.html">Events</a></li>
 			          <li><a href="gallery.html">Gallery</a></li>
 			          <li class="menu-has-children"><a href="">Blog</a>
 			            <ul>
 			              <li><a href="blog-home.html">Blog Home</a></li>
 			              <li><a href="blog-single.html">Blog Single</a></li>
 			            </ul>
-			          </li>	
-			          <li class="menu-has-children"><a href="">Pages</a>
+			          </li>	 -->
+			          <!-- <li class="menu-has-children"><a href="">Paginas</a>
 			            <ul>
-		              		<li><a href="course-details.html">Course Details</a></li>		
+		              		<li><a href="course-details.html">Detalle del programa</a></li>		
 		              		<li><a href="event-details.html">Event Details</a></li>		
 			                <li><a href="elements.html">Elements</a></li>
 					          <li class="menu-has-children"><a href="">Level 2 </a>
@@ -80,8 +80,8 @@
 					            </ul>
 					          </li>					                		
 			            </ul>
-			          </li>					          					          		          
-			          <li><a href="contact.html">Contact</a></li>
+			          </li>					          					          		           -->
+			          <li><a href="contact.php">Contacto</a></li>
 			        </ul>
 			      </nav><!-- #nav-menu-container -->		    		
 		    	</div>
@@ -95,9 +95,9 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Popular Courses		
+								Programas
 							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="courses.html"> Popular Courses</a></p>
+							<p class="text-white link-nav"><a href="index.php">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="courses.php"> Programas</a></p>
 						</div>	
 					</div>
 				</div>
@@ -110,71 +110,27 @@
 					<div class="row">
 						<div class="col-lg-8 left-contents">
 							<div class="main-image">
-								<img class="img-fluid" src="img/m-img.jpg" alt="">
+								<img class="img-fluid" src="img/c-img.jpg" alt="">
 							</div>
 							<div class="jq-tab-wrapper" id="horizontalTab">
 	                            <div class="jq-tab-menu">
-	                                <div class="jq-tab-title active" data-tab="1">Objectives</div>
-	                                <div class="jq-tab-title" data-tab="2">Eligibility</div>
-	                                <div class="jq-tab-title" data-tab="3">Course Outline</div>
-	                                <div class="jq-tab-title" data-tab="4">Comments</div>
-	                                <div class="jq-tab-title" data-tab="5">Reviews</div>
+	                                <div class="jq-tab-title active" data-tab="1">Metodologia</div>
+	                                <div class="jq-tab-title" data-tab="2">Duración</div>
+	                                <div class="jq-tab-title" data-tab="3">Descripción</div>
+	                                <!-- <div class="jq-tab-title" data-tab="4">Comments</div>
+	                                <div class="jq-tab-title" data-tab="5">Reviews</div> -->
 	                            </div>
 	                            <div class="jq-tab-content-wrapper">
 	                                <div class="jq-tab-content active" data-tab="1">
-	                                    When you enter into any new area of science, you almost always find yourself with a baffling new language of technical terms to learn before you can converse with the experts. This is certainly true in astronomy both in terms of terms that refer to the cosmos and terms that describe the tools of the trade, the most prevalent being the telescope.
-										<br>
-										<br>
-	                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+	                                    Presencial.
 	                                </div>
 	                                <div class="jq-tab-content" data-tab="2">
-	                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-										<br>
-										<br>
-	                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+									El programa de 400 horas, de las cuales 300 horas, el 80%  son teóricas y 100 horas, el 20% son prácticas.
 	                                </div>
 	                                <div class="jq-tab-content" data-tab="3">
-										<ul class="course-list">
-											<li class="justify-content-between d-flex">
-												<p>Introduction Lesson</p>
-												<a class="primary-btn text-uppercase" href="#">View Details</a>
-											</li>
-											<li class="justify-content-between d-flex">
-												<p>Basics of HTML</p>
-												<a class="primary-btn text-uppercase" href="#">View Details</a>
-											</li>
-											<li class="justify-content-between d-flex">
-												<p>Getting Know about HTML</p>
-												<a class="primary-btn text-uppercase" href="#">View Details</a>
-											</li>
-											<li class="justify-content-between d-flex">
-												<p>Tags and Attributes</p>
-												<a class="primary-btn text-uppercase" href="#">View Details</a>
-											</li>
-											<li class="justify-content-between d-flex">
-												<p>Basics of CSS</p>
-												<a class="primary-btn text-uppercase" href="#">View Details</a>
-											</li>
-											<li class="justify-content-between d-flex">
-												<p>Getting Familiar with CSS</p>
-												<a class="primary-btn text-uppercase" href="#">View Details</a>
-											</li>
-											<li class="justify-content-between d-flex">
-												<p>Introduction to Bootstrap</p>
-												<a class="primary-btn text-uppercase" href="#">View Details</a>
-											</li>																		
-											<li class="justify-content-between d-flex">
-												<p>Responsive Design</p>
-												<a class="primary-btn text-uppercase" href="#">View Details</a>
-											</li>
-											<li class="justify-content-between d-flex">
-												<p>Canvas in HTML 5</p>
-												<a class="primary-btn text-uppercase" href="#">View Details</a>
-											</li>
-
-										</ul>
+									El Programa de CONOCIMIENTOS ACADÉMICOS PARA LA VALIDACIÓN DEL BACHILLERATO es una oportunidad dirigida a jóvenes y adultos en el Distrito de Medellín, que deseen presentar y aprobar el EXAMEN SABER VALIDACIÓN DEL BACHILLERATO ante el ICFES que lo certificará como bachiller CON UN SOLO EXAMEN. Esta meta puede representar un medio para acceder a mejores oportunidades y la base fundamental del progreso social y económico en sus proyectos de vida. El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB, ofrece este programa, el cual tiene por objeto la adquisición de conocimientos y habilidades en las áreas de MATEMÁTICAS, LECTURA CRÍTICA, CIENCIAS NATURALES, CIENCIAS SOCIALES Y COMPETENCIAS CIUDADANAS E INGLÉS, preparándolos a su vez, para impulsar procesos de autogestión, de participación y de formación democrática.
 	                                </div>
-	                                <div class="jq-tab-content comment-wrap" data-tab="4">
+	                                <!-- <div class="jq-tab-content comment-wrap" data-tab="4">
 						                <div class="comments-area">
 						                    <h4>05 Comments</h4>
 						                    <div class="comment-list">
@@ -435,13 +391,13 @@
 							<a href="#" class="primary-btn text-uppercase">Enroll the course</a>
 						</div>
 					</div>
-				</div>	
+				</div>	 -->
 			</section>
 			<!-- End course-details Area -->
 			
 
 			<!-- Start popular-courses Area --> 
-			<section class="popular-courses-area section-gap courses-page">
+			<!-- <section class="popular-courses-area section-gap courses-page">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-70 col-lg-8">
@@ -478,7 +434,7 @@
 							<div class="thumb-wrap relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>	
-									<img class="img-fluid" src="img/p2.jpg" alt="">
+									<img class="img-fluid" src="img/p3.jpg" alt="">
 								</div>
 								<div class="meta d-flex justify-content-between">
 									<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -500,7 +456,7 @@
 							<div class="thumb-wrap relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>	
-									<img class="img-fluid" src="img/p3.jpg" alt="">
+									<img class="img-fluid" src="img/p2.jpg" alt="">
 								</div>
 								<div class="meta d-flex justify-content-between">
 									<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -543,11 +499,11 @@
 						<a href="#" class="primary-btn text-uppercase mx-auto">Load More Courses</a>													
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End popular-courses Area -->					
 
 			<!-- Start cta-two Area -->
-			<section class="cta-two-area">
+			<!-- <section class="cta-two-area">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-8 cta-left">
@@ -558,7 +514,7 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End cta-two Area -->						    			
 
 			<!-- start footer Area -->		
@@ -630,14 +586,14 @@
 						</div>											
 					</div>
 					<div class="footer-bottom row align-items-center justify-content-between">
-						<p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> &amp; distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+					<p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | hecho <i class="fa fa-heart-o" aria-hidden="true"></i> por <a href="https://agenciaeaglesoftware.com/" target="_blank">EagleSoftware</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-						<div class="col-lg-6 col-sm-12 footer-social">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
+<div class="col-lg-6 col-sm-12 footer-social">
+							<a href="https://www.facebook.com/ipbarbajacob?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
+							<a href="https://www.instagram.com/ietd_porfirio_barba_jacob?igsh=MW9kcGhsdGoyYjl5bA%3D%3D&utm_source=qr" target="_blank"><i class="fa fa-instagram"></i></a>
+							<!-- <a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a> -->
 						</div>
 					</div>						
 				</div>
