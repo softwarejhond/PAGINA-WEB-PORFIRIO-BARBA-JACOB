@@ -38,19 +38,16 @@
 				<div class="overlay overlay-bg"></div>	
 				<div class="container">
 					<div class="row fullscreen d-flex align-items-center justify-content-between">
-						<div class="banner-content col-lg-9 col-md-12">
+					<div class="banner-content col-lg-12 col-md-12 text-center">
+							<img src="img/logoIETDH.png" alt="logo" width="250px">
 							<h1 class="text-uppercase">
-							!BIENVENIDOS¡	
-							</h1>
-							<p class="pt-10 pb-10">
-							El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB, es responsable con el compromiso en la formación para el Trabajo y Desarrollo Humano, acatando las normas y políticas públicas, implementa procesos de calidad que beneficien a toda la comunidad educativa de manera permanente, implementando y actualizando los procesos propios de nuestra actividad para todas las personas del Distrito de Medellín.
-							</p>
-							<h1 class="text-uppercase">
+							¡BIENVENIDOS!
+							<br>
 							NO ENSEÑAMOS MÁS, <br>
 							ENSEÑAMOS MEJOR	
 							</h1>
 							<!-- <a href="#" class="primary-btn text-uppercase">Get Started</a> -->
-						</div>										
+						</div>											
 					</div>
 				</div>					
 			</section>
