@@ -31,63 +31,7 @@
 			<link rel="stylesheet" href="css/main.css">
 		</head>
 		<body>	
-		  <header id="header" id="home">
-	  		<div class="header-top">
-	  			<div class="container">
-			  		<div class="row">
-			  			<div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
-			  				<ul>
-							  <li><a href="https://www.facebook.com/ipbarbajacob?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a></li>
-							  <li><a href="https://www.instagram.com/ietd_porfirio_barba_jacob?igsh=MW9kcGhsdGoyYjl5bA%3D%3D&utm_source=qr" target="_blank"><i class="fa fa-instagram"></i></a></li>
-								<!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-			  				</ul>			
-			  			</div>
-			  			<div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
-						  <a href="tel:+57 324 591 5081"><span class="lnr lnr-phone-handset"></span> <span class="text">+57 324 591 5081 </span></a>
-						  <a href="mailto:ieetdhporfiriobarbajacob@gmail.com"><span class="lnr lnr-envelope"></span> <span class="text">ieetdhporfiriobarbajacob@gmail.com</span></a>			
-			  			</div>
-			  		</div>			  					
-	  			</div>
-			</div>
-		    <div class="container main-menu">
-		    	<div class="row align-items-center justify-content-between d-flex">
-			      <div id="logo">
-			        <a href="index.php"><img src="img/LogoRend.png" alt="" title="" /></a>
-			      </div>
-			      <nav id="nav-menu-container">
-			        <ul class="nav-menu">
-					  <li><a href="index.php">Inicio</a></li>
-			          <!-- <li><a href="index.html">Inicio</a></li> -->
-			          <li><a href="about.php">Nosotros</a></li>
-			          <li><a href="courses.php">Programas</a></li>
-			          <!-- <li><a href="events.html">Events</a></li>
-			          <li><a href="gallery.html">Gallery</a></li>
-			          <li class="menu-has-children"><a href="">Blog</a>
-			            <ul>
-			              <li><a href="blog-home.html">Blog Home</a></li>
-			              <li><a href="blog-single.html">Blog Single</a></li>
-			            </ul>
-			          </li>	 -->
-			          <!-- <li class="menu-has-children"><a href="">Paginas</a>
-			            <ul>
-		              		<li><a href="course-details.html">Course Details</a></li>		
-		              		<li><a href="event-details.html">Event Details</a></li>		
-			                <li><a href="elements.html">Elements</a></li>
-					          <li class="menu-has-children"><a href="">Level 2 </a>
-					            <ul>
-					              <li><a href="#">Item One</a></li>
-					              <li><a href="#">Item Two</a></li>
-					            </ul>
-					          </li>					                		
-			            </ul>
-			          </li>					          					          		           -->
-			          <li><a href="contact.php">Contacto</a></li>
-			        </ul>
-			      </nav><!-- #nav-menu-container -->		    		
-		    	</div>
-		    </div>
-		  </header><!-- #header -->
+		<?php include 'controller/navbar.php' ?><!-- #header -->
 			  
 			<!-- start banner Area -->
 			<section class="banner-area relative about-banner" id="home">	
@@ -241,10 +185,10 @@
                             </dl>
                             <!-- accordion 2 end-->
                         </div>
-                        <!-- <div class="col-md-6 video-right justify-content-center align-items-center d-flex relative">
+                        <div class="col-md-6 video-right justify-content-center align-items-center d-flex relative">
                         	<div class="overlay overlay-bg"></div>
 							<a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid mx-auto" src="img/play.png" alt=""></a>
-                        </div> -->
+                        </div>
                     </div>
 				</div>	
 			</section>
@@ -305,42 +249,44 @@
 			<!-- End search-course Area -->			
 
 			<!-- Start review Area -->
-			<!-- <section class="review-area section-gap relative">
+			<section class="review-area section-gap relative">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">				
 					<div class="row">
 						<div class="active-review-carusel">
 							<div class="single-review item">
 								<div class="title justify-content-start d-flex">
-									<a href="#"><h4>Fannie Rowe</h4></a>
-									<div class="star">
+									<a href="#"><h4>Mision</h4></a>
+									<!-- <div class="star">
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star"></span>
 										<span class="fa fa-star"></span>
-									</div>
+									</div> -->
 								</div>
 								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+								El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB, formará integralmente a los estudiantes mediante una educación que combine la calidad académica con la formación técnica laboral y en conocimientos académicos, promoviendo el desarrollo de competencias laborales, tecnológicas y valores éticos que
+fortalezcan el ser. Buscamos satisfacer las más exigentes necesidades de nuestra comunidad en diversas áreas de
+la educación, formando ciudadanos competentes, innovadores y capaces de enfrentar los retos del mundo laboral actual.
 								</p>
 							</div>
 							<div class="single-review item">
 								<div class="title justify-content-start d-flex">
-									<a href="#"><h4>Hulda Sutton</h4></a>
-									<div class="star">
+									<a href="#"><h4>Vision</h4></a>
+									<!-- <div class="star">
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star"></span>
 										<span class="fa fa-star"></span>
-									</div>
+									</div> -->
 								</div>
 								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+								El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB, será reconocida, para el año 2029, en el Distrito de Ciencia, Tecnología e Innovación, Medellín, como líder en la formación de ciudadanos competentes en el conocimiento y aplicación de los saberes académicos y técnicos laborales, quienes serán gestores y protagonistas de sus proyectos de vida e iniciativas personales de manera consciente, responsable y comprometida, contribuyendo al crecimiento integral propio y de su comunidad.
 								</p>
 							</div>
-							<div class="single-review item">
+							<!-- <div class="single-review item">
 								<div class="title justify-content-start d-flex">
 									<a href="#"><h4>Fannie Rowe</h4></a>
 									<div class="star">
@@ -433,8 +379,8 @@
 							</div>																												
 						</div>
 					</div>
-				</div>	
-			</section> -->
+				</div>	 -->
+			</section>
 			<!-- End review Area -->					
 
 			<!-- Start cta-two Area -->
@@ -453,86 +399,7 @@
 			<!-- End cta-two Area -->						    			
 
 			<!-- start footer Area -->		
-			<footer class="footer-area section-gap">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-2 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h4>Top Products</h4>
-								<ul>
-									<li><a href="#">Managed Website</a></li>
-									<li><a href="#">Manage Reputation</a></li>
-									<li><a href="#">Power Tools</a></li>
-									<li><a href="#">Marketing Service</a></li>
-								</ul>								
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h4>Quick links</h4>
-								<ul>
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Brand Assets</a></li>
-									<li><a href="#">Investor Relations</a></li>
-									<li><a href="#">Terms of Service</a></li>
-								</ul>								
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h4>Features</h4>
-								<ul>
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Brand Assets</a></li>
-									<li><a href="#">Investor Relations</a></li>
-									<li><a href="#">Terms of Service</a></li>
-								</ul>								
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h4>Resources</h4>
-								<ul>
-									<li><a href="#">Guides</a></li>
-									<li><a href="#">Research</a></li>
-									<li><a href="#">Experts</a></li>
-									<li><a href="#">Agencies</a></li>
-								</ul>								
-							</div>
-						</div>																		
-						<div class="col-lg-4  col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h4>Newsletter</h4>
-								<p>Stay update with our latest</p>
-								<div class="" id="mc_embed_signup">
-									 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
-									  <div class="input-group">
-									    <input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
-									    <div class="input-group-btn">
-									      <button class="btn btn-default" type="submit">
-									        <span class="lnr lnr-arrow-right"></span>
-									      </button>    
-									    </div>
-									    	<div class="info"></div>  
-									  </div>
-									</form> 
-								</div>
-							</div>
-						</div>											
-					</div>
-					<div class="footer-bottom row align-items-center justify-content-between">
-					<p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | hecho <i class="fa fa-heart-o" aria-hidden="true"></i> por <a href="https://agenciaeaglesoftware.com/" target="_blank">EagleSoftware</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-<div class="col-lg-6 col-sm-12 footer-social">
-							<a href="https://www.facebook.com/ipbarbajacob?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
-							<a href="https://www.instagram.com/ietd_porfirio_barba_jacob?igsh=MW9kcGhsdGoyYjl5bA%3D%3D&utm_source=qr" target="_blank"><i class="fa fa-instagram"></i></a>
-							<!-- <a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a> -->
-						</div>
-					</div>						
-				</div>
-			</footer>	
+			<?php include 'controller/footer.php' ?> <!--#footer-->	
 			<!-- End footer Area -->	
 
 
