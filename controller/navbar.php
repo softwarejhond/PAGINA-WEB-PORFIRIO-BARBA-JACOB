@@ -6,6 +6,7 @@
 			  				<ul>
 								<li><a href="https://www.facebook.com/ipbarbajacob?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="https://www.instagram.com/ietd_porfirio_barba_jacob?igsh=MW9kcGhsdGoyYjl5bA%3D%3D&utm_source=qr" target="_blank"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="https://api.whatsapp.com/send/?phone=+573245915081&text=Me+gustar%C3%ADa+saber+sobre+alg%C3%BAn+programa&type=phone_number&app_absent=0" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
 								<!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
 								<li><a href="#"><i class="fa fa-behance"></i></a></li> -->
 			  				</ul>			
@@ -20,11 +21,25 @@
 		    <div class="container main-menu">
 		    	<div class="row align-items-center justify-content-between d-flex">
 			      <div id="logo">
-			        <a href="index.php"><img src="img/LogoRend.png" alt="" title=""/> </a>
+			        <a href="index.php"><img src="img/LogoRende.png" alt="" title=""/> </a>
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
 					  <li><a href="index.php">Inicio</a></li>
+					  <li class="menu-has-children"><a href="">Institucional</a>
+			            <ul>
+		              		<li><a href="course-details.html">Manual de convivencia</a></li>		
+		              		<!-- <li><a href="event-details.html">Plantel</a></li>		
+			                <li><a href="elements.html">Elements</a></li> -->
+					          <li class="menu-has-children"><a href="">Areas</a>
+					            <ul>
+					              <li><a href="#">Secretaría Académica</a></li>
+					              <li><a href="#">Coordinadora Administrativa</a></li>
+					              <li><a href="#">Dirección Académica</a></li>
+					            </ul>
+					          </li>					                		
+			            </ul>
+			          </li>		
 			          <!-- <li><a href="index.html">Inicio</a></li> -->
 			          <li><a href="about.php">Nosotros</a></li>
 			          <li><a href="courses.php">Programas</a></li>
@@ -36,19 +51,7 @@
 			              <li><a href="blog-single.html">Blog Single</a></li>
 			            </ul>
 			          </li>	 -->
-			          <!-- <li class="menu-has-children"><a href="">Paginas</a>
-			            <ul>
-		              		<li><a href="course-details.html">Course Details</a></li>		
-		              		<li><a href="event-details.html">Event Details</a></li>		
-			                <li><a href="elements.html">Elements</a></li>
-					          <li class="menu-has-children"><a href="">Level 2 </a>
-					            <ul>
-					              <li><a href="#">Item One</a></li>
-					              <li><a href="#">Item Two</a></li>
-					            </ul>
-					          </li>					                		
-			            </ul>
-			          </li>					          					          		           -->
+			          			          					          		          
 			          <li><a href="contact.php">Contacto</a></li>
 			        </ul>
 			      </nav><!-- #nav-menu-container -->		    		
