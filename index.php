@@ -37,12 +37,10 @@
 			<section class="banner-area relative" id="home">
 				<div class="overlay overlay-bg"></div>	
 				<div class="container">
-					<div class="row fullscreen d-flex align-items-center justify-content-between">
+					<div class="row fullscreen d-flex align-items-center justify-content-between" >
 					<div class="banner-content col-lg-12 col-md-12 text-center">
-							<img src="img/logoIETDH.png" alt="logo" width="250px">
-							<h1 class="text-uppercase">
-							¡BIENVENIDOS!
-							<br>
+							<img src="img/logoIETDH.png" alt="logo" width="220px">
+							<h1 class="text-uppercase">							
 							NO ENSEÑAMOS MÁS, <br>
 							ENSEÑAMOS MEJOR	
 							</h1>
@@ -363,7 +361,7 @@
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-70 col-lg-8">
 							<div class="title text-center">
-								<h1 class="mb-10">Proximos eventos</h1>
+								<h1 class="mb-10">Próximos eventos</h1>
 								<!-- <p>If you are a serious astronomy fanatic like a lot of us</p> -->
 							</div>
 						</div>

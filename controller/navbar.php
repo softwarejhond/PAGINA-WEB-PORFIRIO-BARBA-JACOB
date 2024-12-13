@@ -21,7 +21,7 @@
 		    <div class="container main-menu">
 		    	<div class="row align-items-center justify-content-between d-flex">
 			      <div id="logo">
-			        <a href="index.php"><img src="img/LogoRende.png" alt="" title=""/> </a>
+			        <!-- <a href="index.php"><img src="img/LogoRende.png" alt="" title=""/> </a> -->
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
@@ -31,12 +31,12 @@
 		              		<li><a href="course-details.html">Manual de convivencia</a></li>		
 		              		<!-- <li><a href="event-details.html">Plantel</a></li>		
 			                <li><a href="elements.html">Elements</a></li> -->
-					          <li class="menu-has-children"><a href="">Áreas</a>
-					            <ul>
+					          <li class="menu-has-children"><a href="personal.php">Nuestro personal</a>
+					            <!-- <ul>
 					              <li><a href="#">Secretaría Académica</a></li>
 					              <li><a href="#">Coordinadora Administrativa</a></li>
 					              <li><a href="#">Dirección Académica</a></li>
-					            </ul>
+					            </ul> -->
 					          </li>					                		
 			            </ul>
 			          </li>		
