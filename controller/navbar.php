@@ -31,7 +31,7 @@
 		              		<li><a href="course-details.html">Manual de convivencia</a></li>		
 		              		<!-- <li><a href="event-details.html">Plantel</a></li>		
 			                <li><a href="elements.html">Elements</a></li> -->
-					          <li class="menu-has-children"><a href="">Areas</a>
+					          <li class="menu-has-children"><a href="">Áreas</a>
 					            <ul>
 					              <li><a href="#">Secretaría Académica</a></li>
 					              <li><a href="#">Coordinadora Administrativa</a></li>

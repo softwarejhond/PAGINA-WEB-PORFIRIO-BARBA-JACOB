@@ -115,7 +115,7 @@
 						<div class="menu-content pb-70 col-lg-8">
 							<div class="title text-center">
 								<h1 class="mb-10">Políticas de calidad</h1>
-								<p>El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB, como Institución de Educación para el Trabajo y el Desarrollo Humano, se compromete con sus clientes y partes interesadas a:</p>
+								<p>El centro de educación no formal Porfirio Barba Jacob, como institución de educación para el trabajo y el desarrollo humano, se compromete con sus clientes y partes interesadas a:</p>
 							</div>
 						</div>
 					</div>						

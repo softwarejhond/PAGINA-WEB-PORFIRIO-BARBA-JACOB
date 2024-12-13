@@ -102,7 +102,7 @@
 			<section class="info-area pb-120">
 				<div class="container-fluid">
 					<div class="row align-items-center">
-						<div class="col-lg-6 no-padding info-area-left">
+						<div class="col-lg-6 no-padding info-area-right">
 							<img class="img-fluid" src="img/about-img.jpg" alt="">
 						</div>
 						<div class="col-lg-6 info-area-right">
@@ -111,6 +111,36 @@
 							<br>
 							<p>
 							Propiedad de la INSTITUTO DE EDUCACIÓN PARA EL TRABAJO Y EL DESARROLLO HUMANO Y LA EDUCACIÓN FORMAL PORFIRIO BARBA JACOB LTDA, de carácter privado con personería jurídica y sede en el Distrito de Medellín, la Institución cuenta con licencia de funcionamiento según Resolución N° 03667 del 12 de marzo de 2012, Número de Identificación Tributario (NIT) No. 800093102-3 y Registro del Programa según Resolución No. 202050004921 del 23 enero de 2020.
+							</p>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<section class="info-area pb-120">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-lg-6 no-padding info-area-right">
+							<img class="img-fluid" src="img/ey2.jpg" alt="">
+						</div>
+						<div class="col-lg-6 info-area-right">
+							<h1>Misión</h1>
+							<p>
+								El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB, será reconocida, para el año 2029, en el Distrito de Ciencia, Tecnología e Innovación, Medellín, como líder en la formación de ciudadanos competentes en el conocimiento y aplicación de los saberes académicos y técnicos laborales, quienes serán gestores y protagonistas de sus proyectos de vida e iniciativas personales de manera consciente, responsable y comprometida, contribuyendo al crecimiento integral propio y de su comunidad.
+							</p>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<section class="info-area pb-120">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-lg-6 no-padding info-area-right">
+							<img class="img-fluid" src="img/ey1.jpg" alt="">
+						</div>
+						<div class="col-lg-6 info-area-right">
+							<h1>Visión</h1>
+							<p>
+							El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB, será reconocida, para el año 2029, en el Distrito de Ciencia, Tecnología e Innovación, Medellín, como líder en la formación de ciudadanos competentes en el conocimiento y aplicación de los saberes académicos y técnicos laborales, quienes serán gestores y protagonistas de sus proyectos de vida e iniciativas personales de manera consciente, responsable y comprometida, contribuyendo al crecimiento integral propio y de su comunidad.
 							</p>
 						</div>
 					</div>
@@ -187,7 +217,7 @@
                         </div>
                         <div class="col-md-6 video-right justify-content-center align-items-center d-flex relative">
                         	<div class="overlay overlay-bg"></div>
-							<a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid mx-auto" src="img/play.png" alt=""></a>
+							<a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM" ><img class="img-fluid mx-auto" src="img/play.png" alt=""></a>
                         </div>
                     </div>
 				</div>	
@@ -249,7 +279,7 @@
 			<!-- End search-course Area -->			
 
 			<!-- Start review Area -->
-			<section class="review-area section-gap relative">
+			<!-- <section class="review-area section-gap relative">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">				
 					<div class="row">
@@ -257,13 +287,13 @@
 							<div class="single-review item">
 								<div class="title justify-content-start d-flex">
 									<a href="#"><h4>Mision</h4></a>
-									<!-- <div class="star">
+									<div class="star">
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star"></span>
 										<span class="fa fa-star"></span>
-									</div> -->
+									</div>
 								</div>
 								<p>
 								El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB, formará integralmente a los estudiantes mediante una educación que combine la calidad académica con la formación técnica laboral y en conocimientos académicos, promoviendo el desarrollo de competencias laborales, tecnológicas y valores éticos que
@@ -274,19 +304,19 @@ la educación, formando ciudadanos competentes, innovadores y capaces de enfrent
 							<div class="single-review item">
 								<div class="title justify-content-start d-flex">
 									<a href="#"><h4>Vision</h4></a>
-									<!-- <div class="star">
+									<div class="star">
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star"></span>
 										<span class="fa fa-star"></span>
-									</div> -->
+									</div>
 								</div>
 								<p>
 								El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB, será reconocida, para el año 2029, en el Distrito de Ciencia, Tecnología e Innovación, Medellín, como líder en la formación de ciudadanos competentes en el conocimiento y aplicación de los saberes académicos y técnicos laborales, quienes serán gestores y protagonistas de sus proyectos de vida e iniciativas personales de manera consciente, responsable y comprometida, contribuyendo al crecimiento integral propio y de su comunidad.
 								</p>
 							</div>
-							<!-- <div class="single-review item">
+							<div class="single-review item">
 								<div class="title justify-content-start d-flex">
 									<a href="#"><h4>Fannie Rowe</h4></a>
 									<div class="star">
@@ -379,8 +409,8 @@ la educación, formando ciudadanos competentes, innovadores y capaces de enfrent
 							</div>																												
 						</div>
 					</div>
-				</div>	 -->
-			</section>
+				</div>	
+			</section> -->
 			<!-- End review Area -->					
 
 			<!-- Start cta-two Area -->

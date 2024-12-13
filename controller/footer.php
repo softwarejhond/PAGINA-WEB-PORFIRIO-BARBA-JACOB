@@ -39,27 +39,35 @@
 								<h4>Recursos</h4>
 								<ul>
 									<li><a href="#">Guias</a></li>
-									<!-- <li><a href="#">Research</a></li>
-									<li><a href="#">Experts</a></li>
+									<li><a href="#">Manual de convivencia</a></li>
+									<!-- <li><a href="#">Experts</a></li>
 									<li><a href="#">Agencies</a></li> -->
 								</ul>								
 							</div>
 						</div>																		
 						<div class="col-lg-4  col-md-6 col-sm-6">
-							<div class="single-footer-widget">                            
+							<div class="single-footer-widget ">                            
 								<h4>Contactos</h4>
+								<div class="single-contact-address d-flex flex-row">
                                 <div class="icon">
 									<span class="lnr lnr-phone-handset"></span>
 								</div>
-								<p>324 591 5081 <br>
+								 324 591 5081
+								</div>
+								<br>
+								<div class="single-contact-address d-flex flex-row">
                                 <div class="icon">
 									<span class="lnr lnr-envelope"></span>
 								</div>
-								ieetdhporfiriobarbajacob@gmail.com <br>
+								 ieetdhporfiriobarbajacob@gmail.com <br>
+								</div>
+								<br>
+								<div class="single-contact-address d-flex flex-row">
                                 <div class="icon">
 									<span class="lnr lnr-home"></span>
 								</div>
-							    Calle 49 N° 45 – 26 – Comuna 10 – La Candelaria</p>
+							     Calle 49 N° 45 – 26 – Comuna 10 – La Candelaria
+								</div>
 								<div class="" id="mc_embed_signup">
 									 <!-- <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
 									  <div class="input-group">
