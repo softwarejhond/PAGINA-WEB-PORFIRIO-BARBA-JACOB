@@ -23,25 +23,12 @@
 								</ul>								
 							</div>
 						</div>
-						<!-- <div class="col-lg-2 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h4>Features</h4>
-								<ul>
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Brand Assets</a></li>
-									<li><a href="#">Investor Relations</a></li>
-									<li><a href="#">Terms of Service</a></li>
-								</ul>								
-							</div>
-						</div> -->
 						<div class="col-lg-2 col-md-6 col-sm-6">
 							<div class="single-footer-widget">
 								<h4>Recursos</h4>
 								<ul>
 									<li><a href="#">Guias</a></li>
 									<li><a href="#">Manual de convivencia</a></li>
-									<!-- <li><a href="#">Experts</a></li>
-									<li><a href="#">Agencies</a></li> -->
 								</ul>								
 							</div>
 						</div>																		
@@ -69,17 +56,6 @@
 							     Calle 49 N° 45 – 26 – Comuna 10 – La Candelaria
 								</div>
 								<div class="" id="mc_embed_signup">
-									 <!-- <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
-									  <div class="input-group">
-									    <input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
-									    <div class="input-group-btn">
-									      <button class="btn btn-default" type="submit">
-									        <span class="lnr lnr-arrow-right"></span>
-									      </button>    
-									    </div>
-									    	<div class="info"></div>  
-									  </div>
-									</form>  -->
 								</div>
 							</div>
 						</div>											
@@ -94,8 +70,6 @@
 							<a href="https://www.facebook.com/ipbarbajacob?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
 							<a href="https://www.instagram.com/ietd_porfirio_barba_jacob?igsh=MW9kcGhsdGoyYjl5bA%3D%3D&utm_source=qr" target="_blank"><i class="fa fa-instagram"></i></a>
 							<a href="https://api.whatsapp.com/send/?phone=+573245915081&text=Me+gustar%C3%ADa+saber+sobre+alg%C3%BAn+programa&type=phone_number&app_absent=0" target="_blank"><i class="fa fa-whatsapp"></i></a>
-							<!-- <a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a> -->
 						</div>
 					</div>						
 				</div>

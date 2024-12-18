@@ -90,7 +90,7 @@
 		</head>
 
 		<body>
-			<?php include 'controller/navbar.php' ?><!-- #header -->
+			<?php include 'controller/navbar.php' ?><!-- #navbar -->
 
 			<!-- start banner Area -->
 			<!-- Banner Carousel -->
@@ -154,19 +154,6 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div class="col-lg-4">
-								<div class="single-feature">
-									<div class="title">
-										<h4>No.1 of universities</h4>
-									</div>
-									<div class="desc-wrap">
-										<p>
-											For many of us, our very first experience of learning about the celestial bodies begins when we saw our first.
-										</p>
-										<a href="#">Join Now</a>									
-									</div>
-								</div>
-							</div> -->
 						<div class="col-lg-6">
 							<div class="single-feature">
 								<div class="title">
@@ -209,17 +196,8 @@
 										<div class="overlay overlay-bg"></div>
 										<img class="img-fluid" src="img/p1.jpg" alt="">
 									</div>
-									<!-- <div class="meta d-flex justify-content-between">
-											<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-											<h4>$150</h4>
-										</div>									 -->
 								</div>
 								<div class="details">
-									<!-- <a href="#">
-											<h4>
-												Learn Designing
-											</h4>
-										</a> -->
 									<p>
 										Tener los recursos necesarios y personal idóneo para lograr la satisfacción de nuestros clientes.
 									</p>
@@ -231,17 +209,8 @@
 										<div class="overlay overlay-bg"></div>
 										<img class="img-fluid" src="img/p2.jpg" alt="">
 									</div>
-									<!-- <div class="meta d-flex justify-content-between">
-											<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-											<h4>$150</h4>
-										</div>									 -->
 								</div>
 								<div class="details">
-									<!-- <a href="#">
-											<h4>
-												Learn React js beginners
-											</h4>
-										</a> -->
 									<p>
 										Cumplir con los requisitos aplicables, las normas legales vigentes y el mejoramiento continuo del Sistema de Gestión de la Calidad.
 									</p>
@@ -253,17 +222,8 @@
 										<div class="overlay overlay-bg"></div>
 										<img class="img-fluid" src="img/p3.jpg" alt="">
 									</div>
-									<!-- <div class="meta d-flex justify-content-between">
-											<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-											<h4>$150</h4>
-										</div>									 -->
 								</div>
 								<div class="details">
-									<!-- <a href="#">
-											<h4>
-												Learn Photography
-											</h4>
-										</a> -->
 									<p>
 										Mantener procesos orientados hacia el mejoramiento continuo y la efectividad en el Sistema de Gestión de Calidad de la Institución.
 									</p>
@@ -275,17 +235,8 @@
 										<div class="overlay overlay-bg"></div>
 										<img class="img-fluid" src="img/p4.jpg" alt="">
 									</div>
-									<!-- <div class="meta d-flex justify-content-between">
-											<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-											<h4>$150</h4>
-										</div>									 -->
 								</div>
 								<div class="details">
-									<!-- <a href="#">
-											<h4>
-												Learn Surveying
-											</h4>
-										</a> -->
 									<p>
 										Actuar de manera ética y responsable, contribuyendo al desarrollo sostenible de nuestra comunidad y medio ambiente.
 									</p>
@@ -297,91 +248,13 @@
 										<div class="overlay overlay-bg"></div>
 										<img class="img-fluid" src="img/p1.jpg" alt="">
 									</div>
-									<!-- <div class="meta d-flex justify-content-between">
-											<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-											<h4>$150</h4>
-										</div>									 -->
 								</div>
 								<div class="details">
-									<!-- <a href="#">
-											<h4>
-												Learn Designing
-											</h4>
-										</a> -->
 									<p>
 										Ofrecer programas educativos que cumplan con estándares de calidad, utilizando metodologías innovadoras y recursos para facilitar el aprendizaje.
 									</p>
 								</div>
 							</div>
-							<!-- <div class="single-popular-carusel">
-									<div class="thumb-wrap relative">
-										<div class="thumb relative">
-											<div class="overlay overlay-bg"></div>	
-											<img class="img-fluid" src="img/p2.jpg" alt="">
-										</div>
-										<div class="meta d-flex justify-content-between">
-											<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-											<h4>$150</h4>
-										</div>									
-									</div>
-									<div class="details">
-										<a href="#">
-											<h4>
-												Learn React js beginners
-											</h4>
-										</a>
-										<p>
-											When television was young, there was a hugely popular show based on the still popular fictional characte										
-										</p>
-									</div>
-								</div>	
-								<div class="single-popular-carusel">
-									<div class="thumb-wrap relative">
-										<div class="thumb relative">
-											<div class="overlay overlay-bg"></div>	
-											<img class="img-fluid" src="img/p3.jpg" alt="">
-										</div>
-										<div class="meta d-flex justify-content-between">
-											<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-											<h4>$150</h4>
-										</div>									
-									</div>
-									<div class="details">
-										<a href="#">
-											<h4>
-												Learn Photography
-											</h4>
-										</a>
-										<p>
-											When television was young, there was a hugely popular show based on the still popular fictional characte										
-										</p>
-									</div>
-								</div>	
-								<div class="single-popular-carusel">
-									<div class="thumb-wrap relative">
-										<div class="thumb relative">
-											<div class="overlay overlay-bg"></div>	
-											<img class="img-fluid" src="img/p4.jpg" alt="">
-										</div>
-										<div class="meta d-flex justify-content-between">
-											<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
-											<h4>$150</h4>
-										</div>									
-									</div>
-									<div class="details">
-										<a href="#">
-											<h4>
-												Learn Surveying
-											</h4>
-										</a>
-										<p>
-											When television was young, there was a hugely popular show based on the still popular fictional characte										
-										</p>
-									</div>
-								</div>							
-							</div>
-						</div>
-					</div>	 -->
 			</section>
 			<!-- End popular-course Area -->
 
@@ -406,7 +279,7 @@
 										<h4>Instructores expertos</h4>
 									</a>
 									<p>
-										El uso de Internet es cada vez más común debido al rápido avance de la tecnología y el poder.
+									"Aprende de los mejores: nuestros instructores expertos combinan experiencia profesional con una pasión única por enseñar. ¡Descubre cómo tu futuro puede estar en manos de quienes inspiran y lideran con excelencia!"
 									</p>
 								</div>
 								<div class="col single-detials">
@@ -415,12 +288,12 @@
 										<h4>Certificación</h4>
 									</a>
 									<p>
-										El uso de Internet es cada vez más común debido al rápido avance de la tecnología y el poder.
+									"¡Tu futuro respaldado por excelencia! Nuestra institución cuenta con certificaciones reconocidas que garantizan calidad educativa, estándares internacionales y confianza en cada paso de tu formación. ¡Certifícate con los mejores y abre puertas al éxito!"
 									</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 search-course-right section-gap">
+						<div class="col-lg-6 col-md-6 search-course-right section-gap">
 							<form class="form-wrap" action="#">
 								<h4 class="text-white pb-20 text-center mb-30">Buscar curso con cupos disponibles</h4>
 								<input type="text" class="form-control" name="name" placeholder="Nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre'">
@@ -429,9 +302,9 @@
 								<div class="form-select" id="service-select">
 									<select>
 										<option datd-display="">Elegir curso</option>
-										<option value="1">TÉCNICO LABORAL EN AUXILIAR DE EDUCACIÓN PARA LA PRIMERA INFANCIA</option>
-										<option value="2">CONOCIMIENTOS ACADÉMICOS EN PREPARACIÓN PARA LA VALIDACIÓN DEL
-											BACHILLERATO</option>
+										<option value="TÉCNICO LABORAL EN AUXILIAR DE EDUCACIÓN PARA LA PRIMERA INFANCIA">Técnico laboral en auxiliar de educación para la primera infancia</option>
+										<option value="CONOCIMIENTOS ACADÉMICOS EN PREPARACIÓN PARA LA VALIDACIÓN DEL
+											BACHILLERATO">Conocimientos académicos en preparación - validación del bachillerato</option>
 									</select>
 								</div>
 								<button class="primary-btn text-uppercase">Enviar</button>
@@ -450,7 +323,6 @@
 						<div class="menu-content pb-70 col-lg-8">
 							<div class="title text-center">
 								<h1 class="mb-10">Próximos eventos</h1>
-								<!-- <p>If you are a serious astronomy fanatic like a lot of us</p> -->
 							</div>
 						</div>
 					</div>
@@ -462,6 +334,7 @@
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25 Febero, 2025</p>
+									<img class="img-fluid" src="img/ey1.jpg" alt="">
 									<a href="#">
 										<h4>Bienvenida a nuestros estudiantes</h4>
 									</a>
@@ -471,11 +344,11 @@
 								</div>
 							</div>
 							<div class="single-carusel row align-items-center">
-								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e2.jpg" alt="">
+								<div class="col-12 col-md-6 thumb">									
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25 Febero, 2025</p>
+									<img class="img-fluid" src="img/ey2.jpg" alt="">
 									<a href="#">
 										<h4>Bienvenida a nuestros estudiantes</h4>
 									</a>
@@ -490,6 +363,7 @@
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25 Febero, 2025</p>
+									<img class="img-fluid" src="img/ey1.jpg" alt="">
 									<a href="#">
 										<h4>Bienvenida a nuestros estudiantes</h4>
 									</a>
@@ -504,6 +378,7 @@
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25 Febero, 2025</p>
+									<img class="img-fluid" src="img/ey2.jpg" alt="">
 									<a href="#">
 										<h4>Bienvenida a nuestros estudiantes</h4>
 									</a>
@@ -518,6 +393,7 @@
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25 Febero, 2025</p>
+									<img class="img-fluid" src="img/ey1.jpg" alt="">
 									<a href="#">
 										<h4>Bienvenida a nuestros estudiantes</h4>
 									</a>
@@ -532,6 +408,7 @@
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25 Febero, 2025</p>
+									<img class="img-fluid" src="img/ey2.jpg" alt="">
 									<a href="#">
 										<h4>Bienvenida a nuestros estudiantes</h4>
 									</a>
@@ -710,92 +587,6 @@
 					</div>
 				</div>
 			</section>
-			<!-- End cta-one Area -->
-
-			<!-- Start blog Area -->
-			<!-- <section class="blog-area section-gap" id="blog">
-					<div class="container">
-						<div class="row d-flex justify-content-center">
-							<div class="menu-content pb-70 col-lg-8">
-								<div class="title text-center">
-									<h1 class="mb-10">Latest posts from our Blog</h1>
-									<p>In the history of modern astronomy there is.</p>
-								</div>
-							</div>
-						</div>					
-						<div class="row">
-							<div class="col-lg-3 col-md-6 single-blog">
-								<div class="thumb">
-									<img class="img-fluid" src="img/b1.jpg" alt="">								
-								</div>
-								<p class="meta">25 April, 2018  |  By <a href="#">Mark Wiens</a></p>
-								<a href="blog-single.html">
-									<h5>Addiction When Gambling Becomes A Problem</h5>
-								</a>
-								<p>
-									Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their.
-								</p>
-								<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>		
-							</div>
-							<div class="col-lg-3 col-md-6 single-blog">
-								<div class="thumb">
-									<img class="img-fluid" src="img/b2.jpg" alt="">								
-								</div>
-								<p class="meta">25 April, 2018  |  By <a href="#">Mark Wiens</a></p>
-								<a href="blog-single.html">
-									<h5>Computer Hardware Desktops And Notebooks</h5>
-								</a>
-								<p>
-									Ah, the technical interview. Nothing like it. Not only does it cause anxiety, but it causes anxiety for several different reasons. 
-								</p>
-								<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>						
-							</div>
-							<div class="col-lg-3 col-md-6 single-blog">
-								<div class="thumb">
-									<img class="img-fluid" src="img/b3.jpg" alt="">								
-								</div>
-								<p class="meta">25 April, 2018  |  By <a href="#">Mark Wiens</a></p>
-								<a href="blog-single.html">
-									<h5>Make Myspace Your Best Designed Space</h5>
-								</a>
-								<p>
-									Plantronics with its GN Netcom wireless headset creates the next generation of wireless headset and other products such as wireless.
-								</p>
-								<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>									
-							</div>
-							<div class="col-lg-3 col-md-6 single-blog">
-								<div class="thumb">
-									<img class="img-fluid" src="img/b4.jpg" alt="">								
-								</div>
-								<p class="meta">25 April, 2018  |  By <a href="#">Mark Wiens</a></p>
-								<a href="blog-single.html">
-									<h5>Video Games Playing With Imagination</h5>
-								</a>
-								<p>
-									About 64% of all on-line teens say that do things online that they wouldn’t want their parents to know about.   11% of all adult internet 
-								</p>
-								<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>							
-							</div>							
-						</div>
-					</div>	
-				</section> -->
-			<!-- End blog Area -->
-
-
-			<!-- Start cta-two Area -->
-			<!-- <section class="cta-two-area">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-8 cta-left">
-								<h1>Not Yet Satisfied with our Trend?</h1>
-							</div>
-							<div class="col-lg-4 cta-right">
-								<a class="primary-btn wh" href="#">view our blog</a>
-							</div>
-						</div>
-					</div>	
-				</section> -->
-			<!-- End cta-two Area -->
 
 			<!-- start footer Area -->
 			<?php include 'controller/footer.php' ?> <!--#footer-->

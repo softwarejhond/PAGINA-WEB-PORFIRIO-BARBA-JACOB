@@ -1,37 +1,8 @@
 	<!DOCTYPE html>
 	<html lang="zxx" class="no-js">
-	<head>
-		<!-- Mobile Specific Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/logotitle.png">
-		<!-- Author Meta -->
-		<meta name="author" content="colorlib">
-		<!-- Meta Description -->
-		<meta name="description" content="">
-		<!-- Meta Keyword -->
-		<meta name="keywords" content="">	
-		<!-- meta character set -->
-		<meta charset="UTF-8">
-		<!-- Site Title -->
-		<title>Personal | IETDH PORFIRIO BARBARA JACOB</title>
-
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			<!--
-			CSS
-			============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/nice-select.css">							
-			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">			
-			<link rel="stylesheet" href="css/jquery-ui.css">			
-			<link rel="stylesheet" href="css/main.css">
-		</head>
+	<?php include 'controller/head.php' ?><!-- #header -->
 		<body>	
-		<?php include 'controller/navbar.php' ?><!-- #header --><!-- #header -->
+		<?php include 'controller/navbar.php' ?><!-- #navbar -->
 			  
 			<!-- start banner Area -->
 			<section class="banner-area relative about-banner" id="home">	
@@ -93,104 +64,10 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div class="col-lg-6 pb-30">
-							<div class="single-carusel row align-items-center">
-								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e2.jpg" alt="">
-								</div>
-								<div class="detials col-12 col-md-6">
-									<p>25th February, 2018</p>
-									<a href="event-details.html"><h4>The Universe Through
-									A Child S Eyes</h4></a>
-									<p>
-										For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 pb-30">
-							<div class="single-carusel row align-items-center">
-								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e1.jpg" alt="">
-								</div>
-								<div class="detials col-12 col-md-6">
-									<p>25th February, 2018</p>
-									<a href="event-details.html"><h4>The Universe Through
-									A Child S Eyes</h4></a>
-									<p>
-										For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6" pb-30>
-							<div class="single-carusel row align-items-center">
-								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e2.jpg" alt="">
-								</div>
-								<div class="detials col-12 col-md-6">
-									<p>25th February, 2018</p>
-									<a href="event-details.html"><h4>The Universe Through
-									A Child S Eyes</h4></a>
-									<p>
-										For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 pb-30">
-							<div class="single-carusel row align-items-center">
-								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e1.jpg" alt="">
-								</div>
-								<div class="detials col-12 col-md-6">
-									<p>25th February, 2018</p>
-									<a href="event-details.html"><h4>The Universe Through
-									A Child S Eyes</h4></a>
-									<p>
-										For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="single-carusel row align-items-center">
-								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e2.jpg" alt="">
-								</div>
-								<div class="detials col-12 col-md-6">
-									<p>25th February, 2018</p>
-									<a href="#"><h4>The Universe Through
-									A Child S Eyes</h4></a>
-									<p>
-										For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-									</p>
-								</div>
-							</div>
-						</div>																		 -->
-						<!-- <a href="#" class="text-uppercase primary-btn mx-auto mt-40">Load more courses</a>		 -->
 					</div>
 				</div>	
 			</section>
-			<!-- End events-list Area -->
-				
-
-			<!-- Start cta-two Area -->
-			<!-- <section class="cta-two-area">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-8 cta-left">
-							<h1>Not Yet Satisfied with our Trend?</h1>
-						</div>
-						<div class="col-lg-4 cta-right">
-							<a class="primary-btn wh" href="#">view our blog</a>
-						</div>
-					</div>
-				</div>	
-			</section> -->
-			<!-- End cta-two Area -->						    			
-
-			<!-- start footer Area -->		
+					
 			<?php include 'controller/footer.php' ?> <!--#footer-->		
 			<!-- End footer Area -->	
 
