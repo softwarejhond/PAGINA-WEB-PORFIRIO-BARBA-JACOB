@@ -12,6 +12,7 @@
 			  				</ul>			
 			  			</div>
 			  			<div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
+						  <a href="index.php#aspirantes"><span class="lnr lnr-envelope"></span> <span class="text">Aspirantes</span></a>	
 			  				<a href="tel:+57 324 591 5081"><span class="lnr lnr-phone-handset"></span> <span class="text">+57 324 591 5081 </span></a>
 			  				<a href="mailto:ieetdhporfiriobarbajacob@gmail.com"><span class="lnr lnr-envelope"></span> <span class="text">ieetdhporfiriobarbajacob@gmail.com</span></a>			
 			  			</div>
@@ -21,7 +22,7 @@
 		    <div class="container main-menu">
 		    	<div class="row align-items-center justify-content-between d-flex">
 			      <div id="logo">
-			        <!-- <a href="index.php"><img src="img/LogoRende.png" alt="" title=""/> </a> -->
+			        <a href="index.php"><img src="img/LogoRende.png" alt="" title=""/> </a>
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
