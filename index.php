@@ -42,15 +42,15 @@
 
 				/* Imágenes */
 				.bg-image-1 {
-					background-image: url('https://lh6.googleusercontent.com/proxy/A4pJOa8VKNM9gXbV8w2T0JHB0Uf3OL9qGf95Xj4hUj4ncsJQpyu37AMnhkYlRrHCv1GV48nR0A1VVm3nQHJKC_LmNgF3sS3PEjus5TitkMRMLWk-fGW3NCZ1ESovxQ');
+					background-image: url ('img\m-img.jpg');
 				}
 
 				.bg-image-2 {
-					background-image: url('https://www.savethechildren.org.pe/wp-content/uploads/2022/11/slide_Mesa-de-trabajo-1-1920x860.png');
-				}
+					background-image: url ('img\event-details-img.jpg');
+				} 	
 
 				.bg-image-3 {
-					background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsI5n9mPBUY-SnAc7aDKBghdxbWMj4kZdQsw&s');
+					background-image: url ('img\banner-bg.jpg') ;
 				}
 
 				/* Overlay de color azul transparente */
@@ -294,21 +294,26 @@
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6 search-course-right section-gap">
-							<form class="form-wrap" action="#">
+							<form class="form-wrap" action="#" id="form">
 								<h4 class="text-white pb-20 text-center mb-30">Buscar curso con cupos disponibles</h4>
 								<input type="text" class="form-control" name="name" placeholder="Nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre'">
 								<input type="phone" class="form-control" name="phone" placeholder="Celular" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Celular'">
 								<input type="email" class="form-control" name="email" placeholder="Correo" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Correo'">
 								<div class="form-select" id="service-select">
-									<select>
+									<select name="course">
 										<option datd-display="">Elegir curso</option>
 										<option value="TÉCNICO LABORAL EN AUXILIAR DE EDUCACIÓN PARA LA PRIMERA INFANCIA">Técnico laboral en auxiliar de educación para la primera infancia</option>
-										<option value="CONOCIMIENTOS ACADÉMICOS EN PREPARACIÓN PARA LA VALIDACIÓN DEL
-											BACHILLERATO">Conocimientos académicos en preparación - validación del bachillerato</option>
+										<option value="CONOCIMIENTOS ACADÉMICOS EN PREPARACIÓN PARA LA VALIDACIÓN DEL BACHILLERATO">Conocimientos académicos en preparación - validación del bachillerato</option>
 									</select>
 								</div>
-								<button class="primary-btn text-uppercase">Enviar</button>
+								<input type="submit" id="button" class="primary-btn text-uppercase" value="Enviar mensaje">
 							</form>
+							<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('F-hvqLepb7cczYEoR')
+</script>
 						</div>
 					</div>
 				</div>
@@ -607,6 +612,30 @@
 			<script src="js/owl.carousel.min.js"></script>
 			<script src="js/mail-script.js"></script>
 			<script src="js/main.js"></script>
+
+			<Script>
+				const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Enviando...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_kgmz45r';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Enviar mensaje';
+      alert('Mensaje enviado con éxito!');
+	  form.reset();
+    }, (err) => {
+      btn.value = 'Enviar mensaje';
+      alert(JSON.stringify(err));
+    });
+});
+			</Script>
 		</body>
 
 		</html>
