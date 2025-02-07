@@ -1,174 +1,188 @@
-	<!DOCTYPE html>
-	<html lang="zxx" class="no-js">
-	<?php include 'controller/head.php' ?><!-- #header -->
-		<body>	
-		<?php include 'controller/navbar.php' ?><!-- #navbar -->
-			  
-			<!-- start banner Area -->
-			<section class="banner-area relative about-banner" id="home">	
-				<div class="overlay overlay-bg"></div>
-				<div class="container">				
-					<div class="row d-flex align-items-center justify-content-center">
-						<div class="about-content col-lg-12">
-							<h1 class="text-white">
-								Sobre nosotros				
-							</h1>	
-							<p class="text-white link-nav"><a href="index.php">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.php"> Sobre nosotros</a></p>
-						</div>	
-					</div>
-				</div>
-			</section>
-			<!-- End banner Area -->	
+<!DOCTYPE html>
+<html lang="en">
 
-			<!-- Start feature Area -->
-			<section class="feature-area pb-120">
-			</section>
-			<!-- End feature Area -->		
+<head>
+    <?php include 'controllers/head.php' ?>
+</head>
 
-			<!-- Start info Area -->
-			<section class="info-area pb-120">
-				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div class="col-lg-6 no-padding info-area-right">
-							<img class="img-fluid" src="img/about-img.jpg" alt="">
-						</div>
-						<div class="col-lg-6 info-area-right">
-							<h1>Naturaleza Juridica</h1>
-							<p>Es una Institución de Educación para el Trabajo y el Desarrollo Humano, con 45 años de experiencia, creada de acuerdo con las normas que regulan el servicio público educativo en Colombia: Ley 115 de 1994, Decreto 1075 de 2015, Ley 1064 de 2006, Circular 21 de 2010, Circular No. 202060000240 del 6 de noviembre 2020 y Decreto 0923 de 2024.
-							<br>
-							<p>
-							Propiedad de la INSTITUTO DE EDUCACIÓN PARA EL TRABAJO Y EL DESARROLLO HUMANO Y LA EDUCACIÓN FORMAL PORFIRIO BARBA JACOB LTDA, de carácter privado con personería jurídica y sede en el Distrito de Medellín, la Institución cuenta con licencia de funcionamiento según Resolución N° 03667 del 12 de marzo de 2012, Número de Identificación Tributario (NIT) No. 800093102-3 y Registro del Programa según Resolución No. 202050004921 del 23 enero de 2020.
-							</p>
-						</div>
-					</div>
-				</div>	
-			</section>
-			<section class="info-area pb-120">
-				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div class="col-lg-6 no-padding info-area-right">
-							<img class="img-fluid" src="img/ey2.jpg" alt="">
-						</div>
-						<div class="col-lg-6 info-area-right">
-							<h1>Misión</h1>
-							<p>
-								El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB, será reconocida, para el año 2029, en el Distrito de Ciencia, Tecnología e Innovación, Medellín, como líder en la formación de ciudadanos competentes en el conocimiento y aplicación de los saberes académicos y técnicos laborales, quienes serán gestores y protagonistas de sus proyectos de vida e iniciativas personales de manera consciente, responsable y comprometida, contribuyendo al crecimiento integral propio y de su comunidad.
-							</p>
-						</div>
-					</div>
-				</div>	
-			</section>
-			<section class="info-area pb-120">
-				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div class="col-lg-6 no-padding info-area-right">
-							<img class="img-fluid" src="img/ey1.jpg" alt="">
-						</div>
-						<div class="col-lg-6 info-area-right">
-							<h1>Visión</h1>
-							<p>
-							El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB, será reconocida, para el año 2029, en el Distrito de Ciencia, Tecnología e Innovación, Medellín, como líder en la formación de ciudadanos competentes en el conocimiento y aplicación de los saberes académicos y técnicos laborales, quienes serán gestores y protagonistas de sus proyectos de vida e iniciativas personales de manera consciente, responsable y comprometida, contribuyendo al crecimiento integral propio y de su comunidad.
-							</p>
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End info Area -->	
+<body>
+    <?php include 'controllers/nav.php' ?>
 
-			<!-- Start course-mission Area -->
-			<section class="course-mission-area pb-120">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-70 col-lg-8">
-							<div class="title text-center">
-								<h1 class="mb-10">Principios institucionales</h1>
-								<p>Los principios que orientarán las acciones de nuestra institución están enmarcados según los siguientes aspectos educativos</p>
-							</div>
-						</div>
-					</div>							
-                    <div class="row">
-                        <div class="col-md-6 accordion-left">
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">About Us</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+    <?php include 'controllers/services.php' ?>
 
-                            <!-- accordion 2 start-->
-                            <dl class="accordion">
-                                <dt>
-                                    <a href="">Desarrollo Integral del Saber</a>
-                                </dt>
-                                <dd>
-								Fomentar el desarrollo humano, cultural, económico, tecnológico y social de la región y el distrito de Medellín, reconociendo la educación como la principal fuente del saber.
-                                </dd>
-                                <dt>
-                                    <a href="">Construcción de una Cultura Ética</a>
-                                </dt>
-                                <dd>
-								Establecer un marco ético y cultural basado en el diálogo, el debate democrático, la inclusión, la diversidad de pensamiento y la tolerancia para resolver los conflictos de nuestra sociedad.
-                                </dd>
-                                <dt>
-                                    <a href="">Desarrollo de un Ciudadano Integral desde el Ser</a>
-                                </dt>
-                                <dd>
-								Formar ciudadanos integrales mediante la construcción y aceptación de valores éticos, culturales, científicos, tecnológicos y sociales.
-                                </dd>
-                                <dt>
-                                    <a href="">Mejora Continua</a>
-                                </dt>
-                                <dd>
-								Evaluar y fortalecer constantemente las debilidades y fortalezas de cada miembro de la comunidad educativa. Aportándole al factor humano un permanente acompañamiento durante el proceso.
-                                </dd>                                    
-                                <dt>
-                                    <a href="">Capacitación Constante</a>
-                                </dt>
-                                <dd>
-								Garantizar la actualización y formación continua de tutores, personal administrativo y de servicios.
-                                </dd>                                    
-                                <dt>
-                                    <a href="">Ambiente Pedagógico</a>
-                                </dt>
-                                <dd>
-								Crear un ambiente pedagógico y multidisciplinario que apoye la formación integral del ser humano.
-                                </dd>                                    
-                                <dt>
-                                    <a href="">Desarrollo de un Ciudadano Integral desde el Hacer</a>
-                                </dt>
-                                <dd>
-								Fomentar el desarrollo de habilidades y competencias que se adapten a una sociedad y a unos ciudadanos en permanente cambio y evolución y que son desafiados constantemente a través de nuevas y renovadas experiencias laborales.
-                                </dd>                                    
-                                <dt>
-                                    <a href="">Metodologías Innovadoras</a>
-                                </dt>
-                                <dd>
-								Implementar programas académicos y metodologías técnico-pedagógicas que mejoren cualitativamente la educación en consonancia con las características sociales, económicas, tecnológicas y culturales del entorno nacional, regional y local.
-                                </dd>                                                                       
-                            </dl>
-                            <!-- accordion 2 end-->
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 mb-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/bienvenido.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-4">¡Bienvenido!</h1>
+                    <p class="mb-4">El CENTRO DE EDUCACIÓN NO FORMAL
+                        PORFIRIO BARBA JACOB, es responsable con el
+                        compromiso en la formación para el Trabajo y
+                        Desarrollo Humano, acatando las normas y
+                        políticas públicas, implementa procesos de calidad
+                        que beneficien a toda la comunidad educativa de
+                        manera permanente, implementando y
+                        actualizando los procesos propios de nuestra
+                        actividad para todas las personas del Distrito de
+                        Medellín.</p>
+                </div>
+            </div>
+            <div class="row g-5 mb-5 flex-row-reverse">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/mision.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-4">Misión</h1>
+                    <p class="mb-4">El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB,
+                        formará integralmente a los estudiantes mediante una educación que
+                        combine la calidad académica con la formación técnica laboral y en
+                        conocimientos académicos, promoviendo el desarrollo de
+                        competencias laborales, tecnológicas y valores éticos que
+                        fortalezcan el ser. Buscamos satisfacer las más exigentes
+                        necesidades de nuestra comunidad en diversas áreas de
+                        la educación, formando ciudadanos competentes, innovadores y
+                        capaces de enfrentar los retos del mundo laboral actual.</p>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/vision.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-4">Visión</h1>
+                    <p class="mb-4">El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB,
+                        será reconocida, para el año 2029, en el Distrito de Ciencia,
+                        Tecnología e Innovación, Medellín, como líder en la formación de
+                        ciudadanos competentes en el conocimiento y aplicación de los
+                        saberes académicos y técnicos laborales, quienes serán gestores y
+                        protagonistas de sus proyectos de vida e iniciativas personales de
+                        manera consciente, responsable y comprometida, contribuyendo al
+                        crecimiento integral propio y de su comunidad.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
+                <h1 class="mb-5">Expert Instructors</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
                         </div>
-                        <div class="col-md-6 video-right justify-content-center align-items-center d-flex relative">
-                        	<div class="overlay overlay-bg"></div>
-							<a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM" ><img class="img-fluid mx-auto" src="img/play.png" alt=""></a>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
                         </div>
                     </div>
-				</div>	
-			</section>
-			<!-- End course-mission Area -->						    			
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
 
-			<!-- start footer Area -->		
-			<?php include 'controller/footer.php' ?> <!--#footer-->	
-			<!-- End footer Area -->	
 
+    <?php
+    include 'controllers/footer.php';
+    include 'controllers/scripts.php';
+    ?>
+</body>
 
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>			
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-  			<script src="js/easing.min.js"></script>			
-			<script src="js/hoverIntent.js"></script>
-			<script src="js/superfish.min.js"></script>	
-			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>	
-    		<script src="js/jquery.tabs.min.js"></script>						
-			<script src="js/jquery.nice-select.min.js"></script>	
-			<script src="js/owl.carousel.min.js"></script>									
-			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
-		</body>
-	</html>
+</html>

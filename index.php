@@ -1,641 +1,213 @@
-		<!DOCTYPE html>
-		<html lang="zxx" class="no-js">
+<!DOCTYPE html>
+<html lang="en">
 
-		<head>
-			<!-- Mobile Specific Meta -->
-			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-			<!-- Favicon-->
-			<link rel="shortcut icon" href="img/logotitle.png">
-			<!-- Author Meta -->
-			<meta name="author" content="colorlib">
-			<!-- Meta Description -->
-			<meta name="description" content="">
-			<!-- Meta Keyword -->
-			<meta name="keywords" content="">
-			<!-- meta character set -->
-			<meta charset="UTF-8">
-			<!-- Site Title -->
-			<title>IETDH PORFIRIO BARBARA JACOB</title>
+<head>
+    <?php include 'controllers/head.php' ?>
+</head>
 
-			<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
-			<!--
-				CSS
-				============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/nice-select.css">
-			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">
-			<link rel="stylesheet" href="css/jquery-ui.css">
-			<link rel="stylesheet" href="css/main.css">
-			<style>
-				/* Fondo de cada slide */
-				.carousel-item {
-					position: relative;
-					height: 780px;
-					/* Ajusta la altura */
-					background-size: cover;
-					background-position: center;
-				}
+<body>
+    <?php include 'controllers/nav.php' ?>
 
-				/* Imágenes */
-				.bg-image-1 {
-					background-image: url ('img\m-img.jpg');
-				}
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <a href="index.php" class="logo">
+            <img src="img/logo.png" alt="">
+        </a>
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h1 class="display-3 text-white animated slideInDown">Desarrollo Integral del Saber</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Fomentamos el desarrollo humano, cultural, económico,
+                                    tecnológico y social de la región y el distrito de Medellín, reconociendo la educación
+                                    como la principal fuente del saber.</p>
+                                <a href="about.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h1 class="display-3 text-white animated slideInDown">Metodologías Innovadoras</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Implementar programas académicos y metodologías
+                                    técnico-pedagógicas que mejoren cualitativamente la educación en consonancia con las
+                                    características sociales, económicas, tecnológicas y culturales del entorno nacional,
+                                    regional y local.</p>
+                                <a href="about.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+    <?php include 'controllers/services.php' ?>
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Acerda de Nosotros</h6>
+                    <h1 class="mb-4">Bienvenido al Instituto Porfirio Barba Jacob</h1>
+                    <p class="mb-4">Como Institución de Educación para el Trabajo y el Desarrollo Humano.</p>
+                    <p class="mb-4">El proceso formativo del estudiante es diseñado con base en el desarrollo de competencias
+                        laborales que propone un paradigma en donde el proceso de enseñanza se percibe y se lleva a
+                        cabo como un proceso dinámico, participativo e interactivo del sujeto, de modo que el
+                        conocimiento sea una auténtica construcción operada por la persona que aprende.</p>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Leer más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
+                <h1 class="mb-5">Expert Instructors</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+    <?php 
+    include 'controllers/footer.php'; 
+    include 'controllers/scripts.php';
+    ?>
 
-				.bg-image-2 {
-					background-image: url ('img\event-details-img.jpg');
-				} 	
+</body>
 
-				.bg-image-3 {
-					background-image: url ('img\banner-bg.jpg') ;
-				}
-
-				/* Overlay de color azul transparente */
-				.carousel-item::before {
-					content: "";
-					position: absolute;
-					top: 0;
-					left: 0;
-					width: 100%;
-					height: 100%;
-					background: rgba(4, 9, 29, 0.7);
-					/* Color azul con transparencia */
-					z-index: 1;
-					/* Para que esté sobre la imagen */
-				}
-
-				/* Asegura que el texto esté visible y encima del overlay */
-	.carousel-caption {
-		position: absolute;
-		top: 80%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		text-align: center;
-		z-index: 2; /* El texto debe estar sobre el overlay */
-		color: #fff; /* Texto blanco para contraste */
-		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar visibilidad */
-	}
-
-	/* Ajusta el tamaño del texto */
-	.carousel-caption h1 {
-		font-size: 2.5rem;
-		font-weight: bold;
-		margin: 0;
-		color: #fff;
-	}
-			</style>
-		</head>
-
-		<body>
-			<?php include 'controller/navbar.php' ?><!-- #navbar -->
-
-			<!-- start banner Area -->
-			<!-- Banner Carousel -->
-			<section id="bannerCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Indicadores -->
-				<ol class="carousel-indicators">
-					<li data-target="#bannerCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#bannerCarousel" data-slide-to="1"></li>
-					<li data-target="#bannerCarousel" data-slide-to="2"></li>
-				</ol>
-
-				<!-- Contenido del Carousel -->
-				<div class="carousel-inner">
-					<div class="carousel-item active bg-image-1">
-						<div class="carousel-caption d-none d-md-block">
-							<h1>NO ENSEÑAMOS MÁS, ENSEÑAMOS MEJOR</h1>
-						</div>
-					</div>
-					<div class="carousel-item bg-image-2">
-						<div class="carousel-caption d-none d-md-block">
-							<h1>APRENDIZAJE DE CALIDAD</h1>
-						</div>
-					</div>
-					<div class="carousel-item bg-image-3">
-						<div class="carousel-caption d-none d-md-block">
-							<h1>CONSTRUYENDO FUTURO</h1>
-						</div>
-					</div>
-				</div>
-
-				<!-- Controles -->
-				<a class="carousel-control-prev" href="#bannerCarousel" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Anterior</span>
-				</a>
-				<a class="carousel-control-next" href="#bannerCarousel" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Siguiente</span>
-				</a>
-			</section>
-			<!-- End banner Area -->
-
-			<!-- Start feature Area -->
-			<section class="feature-area">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6">
-							<div class="single-feature">
-								<div class="title">
-									<h4>Nuestros programas</h4>
-								</div>
-								<div class="desc-wrap">
-									<p>
-										TÉCNICO LABORAL EN AUXILIAR DE EDUCACIÓN PARA LA PRIMERA INFANCIA
-										<br>
-										<br>
-										CONOCIMIENTOS ACADÉMICOS EN PREPARACIÓN PARA LA VALIDACIÓN DEL
-										BACHILLERATO
-									</p>
-									<a href="courses.php">Ver programas</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="single-feature">
-								<div class="title">
-									<h4>Matriculate ahora</h4>
-								</div>
-								<div class="desc-wrap">
-									<p>
-										MATRICULATE AHORA Y ENTRA AL MUNDO LABORAL.
-										<br>
-										<br>
-										EL MOMENTO ES AHORA. ¡UNETE A NOSOTROS!
-									</p>
-									<a href="#">Vamos!</a>
-									<br>
-									<br>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- End feature Area -->
-
-			<!-- Start popular-course Area -->
-			<section class="popular-course-area section-gap">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-70 col-lg-8">
-							<div class="title text-center">
-								<h1 class="mb-10">Políticas de calidad</h1>
-								<p>El centro de educación no formal Porfirio Barba Jacob, como institución de educación para el trabajo y el desarrollo humano, se compromete con sus clientes y partes interesadas a:</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="active-popular-carusel">
-							<div class="single-popular-carusel">
-								<div class="thumb-wrap relative">
-									<div class="thumb relative">
-										<div class="overlay overlay-bg"></div>
-										<img class="img-fluid" src="img/p1.jpg" alt="">
-									</div>
-								</div>
-								<div class="details">
-									<p>
-										Tener los recursos necesarios y personal idóneo para lograr la satisfacción de nuestros clientes.
-									</p>
-								</div>
-							</div>
-							<div class="single-popular-carusel">
-								<div class="thumb-wrap relative">
-									<div class="thumb relative">
-										<div class="overlay overlay-bg"></div>
-										<img class="img-fluid" src="img/p2.jpg" alt="">
-									</div>
-								</div>
-								<div class="details">
-									<p>
-										Cumplir con los requisitos aplicables, las normas legales vigentes y el mejoramiento continuo del Sistema de Gestión de la Calidad.
-									</p>
-								</div>
-							</div>
-							<div class="single-popular-carusel">
-								<div class="thumb-wrap relative">
-									<div class="thumb relative">
-										<div class="overlay overlay-bg"></div>
-										<img class="img-fluid" src="img/p3.jpg" alt="">
-									</div>
-								</div>
-								<div class="details">
-									<p>
-										Mantener procesos orientados hacia el mejoramiento continuo y la efectividad en el Sistema de Gestión de Calidad de la Institución.
-									</p>
-								</div>
-							</div>
-							<div class="single-popular-carusel">
-								<div class="thumb-wrap relative">
-									<div class="thumb relative">
-										<div class="overlay overlay-bg"></div>
-										<img class="img-fluid" src="img/p4.jpg" alt="">
-									</div>
-								</div>
-								<div class="details">
-									<p>
-										Actuar de manera ética y responsable, contribuyendo al desarrollo sostenible de nuestra comunidad y medio ambiente.
-									</p>
-								</div>
-							</div>
-							<div class="single-popular-carusel">
-								<div class="thumb-wrap relative">
-									<div class="thumb relative">
-										<div class="overlay overlay-bg"></div>
-										<img class="img-fluid" src="img/p1.jpg" alt="">
-									</div>
-								</div>
-								<div class="details">
-									<p>
-										Ofrecer programas educativos que cumplan con estándares de calidad, utilizando metodologías innovadoras y recursos para facilitar el aprendizaje.
-									</p>
-								</div>
-							</div>
-			</section>
-			<!-- End popular-course Area -->
-
-
-			<!-- Start search-course Area -->
-			<section class="search-course-area relative"  id="aspirantes">
-				<div class="overlay overlay-bg"></div>
-				<div class="container">
-					<div class="row justify-content-between align-items-center">
-						<div class="col-lg-6 col-md-6 search-course-left">
-							<h1 class="text-white">
-								¡Inscríbete ahora y disfruta de
-								beneficios exclusivos!
-							</h1>
-							<p>
-								Imagina un mundo de posibilidades. En Instituto Porfirio Barbara Jacob, tus sueños cobran vida.
-							</p>
-							<div class="row details-content">
-								<div class="col single-detials">
-									<span class="lnr lnr-graduation-hat"></span>
-									<a href="#">
-										<h4>Instructores expertos</h4>
-									</a>
-									<p>
-									"Aprende de los mejores: nuestros instructores expertos combinan experiencia profesional con una pasión única por enseñar. ¡Descubre cómo tu futuro puede estar en manos de quienes inspiran y lideran con excelencia!"
-									</p>
-								</div>
-								<div class="col single-detials">
-									<span class="lnr lnr-license"></span>
-									<a href="#">
-										<h4>Certificación</h4>
-									</a>
-									<p>
-									"¡Tu futuro respaldado por excelencia! Nuestra institución cuenta con certificaciones reconocidas que garantizan calidad educativa, estándares internacionales y confianza en cada paso de tu formación. ¡Certifícate con los mejores y abre puertas al éxito!"
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 search-course-right section-gap">
-							<form class="form-wrap" action="#" id="form">
-								<h4 class="text-white pb-20 text-center mb-30">Buscar curso con cupos disponibles</h4>
-								<input type="text" class="form-control" name="name" placeholder="Nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre'">
-								<input type="phone" class="form-control" name="phone" placeholder="Celular" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Celular'">
-								<input type="email" class="form-control" name="email" placeholder="Correo" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Correo'">
-								<div class="form-select" id="service-select">
-									<select name="course">
-										<option datd-display="">Elegir curso</option>
-										<option value="TÉCNICO LABORAL EN AUXILIAR DE EDUCACIÓN PARA LA PRIMERA INFANCIA">Técnico laboral en auxiliar de educación para la primera infancia</option>
-										<option value="CONOCIMIENTOS ACADÉMICOS EN PREPARACIÓN PARA LA VALIDACIÓN DEL BACHILLERATO">Conocimientos académicos en preparación - validación del bachillerato</option>
-									</select>
-								</div>
-								<input type="submit" id="button" class="primary-btn text-uppercase" value="Enviar mensaje">
-							</form>
-							<script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-<script type="text/javascript">
-  emailjs.init('F-hvqLepb7cczYEoR')
-</script>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- End search-course Area -->
-
-
-			<!-- Start upcoming-event Area -->
-			<section class="upcoming-event-area section-gap">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-70 col-lg-8">
-							<div class="title text-center">
-								<h1 class="mb-10">Próximos eventos</h1>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="active-upcoming-event-carusel">
-							<div class="single-carusel row align-items-center">
-								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e1.jpg" alt="">
-								</div>
-								<div class="detials col-12 col-md-6">
-									<p>25 Febero, 2025</p>
-									<img class="img-fluid" src="img/ey1.jpg" alt="">
-									<a href="#">
-										<h4>Bienvenida a nuestros estudiantes</h4>
-									</a>
-									<p>
-										Estamos emocionados de darte la bienvenida a nuestra comunidad. Aquí encontrarás un espacio donde crecer, aprender y formar amistades duraderas. ¡Prepárate para vivir una experiencia inolvidable!
-									</p>
-								</div>
-							</div>
-							<div class="single-carusel row align-items-center">
-								<div class="col-12 col-md-6 thumb">									
-								</div>
-								<div class="detials col-12 col-md-6">
-									<p>25 Febero, 2025</p>
-									<img class="img-fluid" src="img/ey2.jpg" alt="">
-									<a href="#">
-										<h4>Bienvenida a nuestros estudiantes</h4>
-									</a>
-									<p>
-										¡Bienvenido a la familia! Este es el inicio de un emocionante viaje lleno de aprendizaje y descubrimiento. Te invitamos a explorar todas las oportunidades que nuestra institución te ofrece.
-									</p>
-								</div>
-							</div>
-							<div class="single-carusel row align-items-center">
-								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e1.jpg" alt="">
-								</div>
-								<div class="detials col-12 col-md-6">
-									<p>25 Febero, 2025</p>
-									<img class="img-fluid" src="img/ey1.jpg" alt="">
-									<a href="#">
-										<h4>Bienvenida a nuestros estudiantes</h4>
-									</a>
-									<p>
-										¡Unidos somos más fuertes! Nos alegra que te unas a nuestra comunidad. Aquí encontrarás un ambiente de colaboración y apoyo mutuo que te permitirá alcanzar tus metas.
-									</p>
-								</div>
-							</div>
-							<div class="single-carusel row align-items-center">
-								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e1.jpg" alt="">
-								</div>
-								<div class="detials col-12 col-md-6">
-									<p>25 Febero, 2025</p>
-									<img class="img-fluid" src="img/ey2.jpg" alt="">
-									<a href="#">
-										<h4>Bienvenida a nuestros estudiantes</h4>
-									</a>
-									<p>
-										¡Bienvenido al mundo de las nuevas tecnologías! Aquí encontrarás todo lo que necesitas para convertirte en un profesional exitoso.
-									</p>
-								</div>
-							</div>
-							<div class="single-carusel row align-items-center">
-								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e2.jpg" alt="">
-								</div>
-								<div class="detials col-12 col-md-6">
-									<p>25 Febero, 2025</p>
-									<img class="img-fluid" src="img/ey1.jpg" alt="">
-									<a href="#">
-										<h4>Bienvenida a nuestros estudiantes</h4>
-									</a>
-									<p>
-										Estamos emocionados de darles la bienvenida a nuestra comunidad. Prepárense para vivir una experiencia única llena de aprendizaje y crecimiento. ¡Los esperamos con los brazos abiertos!
-									</p>
-								</div>
-							</div>
-							<div class="single-carusel row align-items-center">
-								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e1.jpg" alt="">
-								</div>
-								<div class="detials col-12 col-md-6">
-									<p>25 Febero, 2025</p>
-									<img class="img-fluid" src="img/ey2.jpg" alt="">
-									<a href="#">
-										<h4>Bienvenida a nuestros estudiantes</h4>
-									</a>
-									<p>
-										¡Súper emocionados de darles la bienvenida! Aquí encontrarán un ambiente lleno de energía y oportunidades. ¡A comenzar esta nueva etapa!
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- End upcoming-event Area -->
-
-			<!-- Start review Area -->
-			<section class="review-area section-gap relative">
-				<div class="overlay overlay-bg"></div>
-				<div class="container">
-					<div class="row">
-						<div class="active-review-carusel">
-							<div class="single-review item">
-								<div class="title justify-content-start d-flex">
-									<a href="#">
-										<h4>Sofía García</h4>
-									</a>
-									<div class="star">
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</div>
-								</div>
-								<p>
-									Comparte tus conocimientos y descubre nuevos accesorios con tus compañeros. En nuestra sección encontrarás desde los básicos hasta los más innovadores dispositivos para que puedas sacar el máximo partido a tu equipo. ¡Visítanos y descubre las últimas novedades
-								</p>
-							</div>
-							<div class="single-review item">
-								<div class="title justify-content-start d-flex">
-									<a href="#">
-										<h4>Alejandro Fernández</h4>
-									</a>
-									<div class="star">
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</div>
-								</div>
-								<p>
-									Comparte tus conocimientos y descubre nuevos accesorios con tus compañeros. En nuestra sección encontrarás desde los básicos hasta los más innovadores dispositivos para que puedas sacar el máximo partido a tu equipo. ¡Visítanos y descubre las últimas novedades
-								</p>
-							</div>
-							<div class="single-review item">
-								<div class="title justify-content-start d-flex">
-									<a href="#">
-										<h4>Sofía García</h4>
-									</a>
-									<div class="star">
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</div>
-								</div>
-								<p>
-									Comparte tus conocimientos y descubre nuevos accesorios con tus compañeros. En nuestra sección encontrarás desde los básicos hasta los más innovadores dispositivos para que puedas sacar el máximo partido a tu equipo. ¡Visítanos y descubre las últimas novedades
-								</p>
-							</div>
-							<div class="single-review item">
-								<div class="title justify-content-start d-flex">
-									<a href="#">
-										<h4>Alejandro Fernández</h4>
-									</a>
-									<div class="star">
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</div>
-								</div>
-								<p>
-									Comparte tus conocimientos y descubre nuevos accesorios con tus compañeros. En nuestra sección encontrarás desde los básicos hasta los más innovadores dispositivos para que puedas sacar el máximo partido a tu equipo. ¡Visítanos y descubre las últimas novedades
-								</p>
-							</div>
-							<div class="single-review item">
-								<div class="title justify-content-start d-flex">
-									<a href="#">
-										<h4>Sofía García</h4>
-									</a>
-									<div class="star">
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</div>
-								</div>
-								<p>
-									Comparte tus conocimientos y descubre nuevos accesorios con tus compañeros. En nuestra sección encontrarás desde los básicos hasta los más innovadores dispositivos para que puedas sacar el máximo partido a tu equipo. ¡Visítanos y descubre las últimas novedades
-								</p>
-							</div>
-							<div class="single-review item">
-								<div class="title justify-content-start d-flex">
-									<a href="#">
-										<h4>Alejandro Fernández</h4>
-									</a>
-									<div class="star">
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</div>
-								</div>
-								<p>
-									Comparte tus conocimientos y descubre nuevos accesorios con tus compañeros. En nuestra sección encontrarás desde los básicos hasta los más innovadores dispositivos para que puedas sacar el máximo partido a tu equipo. ¡Visítanos y descubre las últimas novedades
-								</p>
-							</div>
-							<div class="single-review item">
-								<img src="img/r1.png" alt="">
-								<div class="title justify-content-start d-flex">
-									<a href="#">
-										<h4>Alejandro Fernández</h4>
-									</a>
-									<div class="star">
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</div>
-								</div>
-								<p>
-									Comparte tus conocimientos y descubre nuevos accesorios con tus compañeros. En nuestra sección encontrarás desde los básicos hasta los más innovadores dispositivos para que puedas sacar el máximo partido a tu equipo. ¡Visítanos y descubre las últimas novedades
-								</p>
-							</div>
-							<div class="single-review item">
-								<div class="title justify-content-start d-flex">
-									<a href="#">
-										<h4>Sofía García</h4>
-									</a>
-									<div class="star">
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</div>
-								</div>
-								<p>
-									Comparte tus conocimientos y descubre nuevos accesorios con tus compañeros. En nuestra sección encontrarás desde los básicos hasta los más innovadores dispositivos para que puedas sacar el máximo partido a tu equipo. ¡Visítanos y descubre las últimas novedades
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- End review Area -->
-
-			<!-- Start cta-one Area -->
-			<section class="cta-one-area relative section-gap">
-				<div class="container">
-					<div class="overlay overlay-bg"></div>
-					<div class="row justify-content-center">
-						<div class="wrap">
-							<h1 class="text-white">Trabaja con nosotros</h1>
-							<p>
-								Descubre las oportunidades de crecimiento en Instituto Porfirio Barbara Jacob
-							</p>
-							<a class="primary-btn wh" href="#">Solicitar el puesto</a>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<!-- start footer Area -->
-			<?php include 'controller/footer.php' ?> <!--#footer-->
-			<!-- End footer Area -->
-
-
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-			<script src="js/easing.min.js"></script>
-			<script src="js/hoverIntent.js"></script>
-			<script src="js/superfish.min.js"></script>
-			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>
-			<script src="js/jquery.tabs.min.js"></script>
-			<script src="js/jquery.nice-select.min.js"></script>
-			<script src="js/owl.carousel.min.js"></script>
-			<script src="js/mail-script.js"></script>
-			<script src="js/main.js"></script>
-
-			<Script>
-				const btn = document.getElementById('button');
-
-document.getElementById('form')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
-
-   btn.value = 'Enviando...';
-
-   const serviceID = 'default_service';
-   const templateID = 'template_kgmz45r';
-
-   emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      btn.value = 'Enviar mensaje';
-      alert('Mensaje enviado con éxito!');
-	  form.reset();
-    }, (err) => {
-      btn.value = 'Enviar mensaje';
-      alert(JSON.stringify(err));
-    });
-});
-			</Script>
-		</body>
-
-		</html>
+</html>
