@@ -16,11 +16,102 @@ img{
 /* CHANGES ON BOOSTRAP */
 .logo{
     position: absolute;
-    top: 100px;
-    right: 50px;
-    width: 200px;
-    z-index: 100;
+    top: 20px;
+    left: 20%;
+    width: 130px;
+    /* z-index: 100; */
 }
+.logo-nav {
+    width: 50px;
+}
+/* Contenedor flotante */
+.hvr-region {
+    position: fixed;
+    bottom: 4%;
+    right: 4%;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-primary);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  /* Icono principal (compartir) */
+  .hvr-region .main-icon {
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+
+  /* Botones de redes sociales */
+  .hvr-region .btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-primary);
+    color: #fff;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s, transform 0.3s;
+    font-size: 20px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    pointer-events: none; /* Desactivado por defecto */
+  }
+
+  /* Efecto hover para mostrar los botones */
+  .hvr-region:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .hvr-region:hover .main-icon {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+
+  .hvr-region:hover .btn {
+    opacity: 1;
+    pointer-events: auto; /* Activar interacción al hover */
+  }
+
+  /* Posición de los botones */
+  .hvr-region:hover .btn1 {
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hvr-region:hover .btn2 {
+    top: 50%;
+    left: -20px;
+    transform: translate(-50%, -50%);
+  }
+
+  .hvr-region:hover .btn3 {
+    top: 50%;
+    left: 120%; /* Ajustar distancia entre botones */
+    transform: translate(-50%, -50%);
+  }
+
+  /* Estilos generales para los enlaces */
+  .hvr-region a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .hvr-region a:hover {
+    background-color: white;
+    color: var(--color-primary);
+  }
 .fw-medium {
     font-weight: 600 !important;
 }
@@ -93,6 +184,13 @@ img{
 
 
 /*** Navbar ***/
+.navbar > div {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -354,7 +452,7 @@ img{
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
-    background: var(--primary) !important;
+    background: var(--color-primary) !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text * {
@@ -379,8 +477,8 @@ img{
 }
 
 .testimonial-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--color-primary);
+    border-color: var(--color-primary);
 }
 
 

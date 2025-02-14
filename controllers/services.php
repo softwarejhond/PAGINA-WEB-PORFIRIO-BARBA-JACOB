@@ -16,7 +16,7 @@
                     <div class="p-4">
                         <i class="fa fa-3x fa-globe text-primary mb-4"></i>
                         <h5 class="mb-3">Mejora Continua</h5>
-                        <p>Evaluamos y fortalecemos las debilidades y fortalezas de cada miembro de la comunidad educativa.</p>
+                        <p>Evaluamos y fortalecemos a cada miembro de la comunidad educativa.</p>
                     </div>
                 </div>
             </div>
