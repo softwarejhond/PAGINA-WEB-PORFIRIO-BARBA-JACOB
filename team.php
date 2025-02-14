@@ -12,12 +12,12 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Our Team</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Nuestro Equipo</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Team</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Inicio</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Páginas</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Equipo</li>
                         </ol>
                     </nav>
                 </div>
@@ -31,8 +31,8 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
-                <h1 class="mb-5">Expert Instructors</h1>
+                <h6 class="section-title bg-white text-center text-primary px-3">Docentes</h6>
+                <h1 class="mb-5">Docentes Expertos</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -48,8 +48,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Nombre del Docentes</h5>
+                            <small>Area</small>
                         </div>
                     </div>
                 </div>
@@ -66,8 +66,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Nombre del Docentes</h5>
+                            <small>Area</small>
                         </div>
                     </div>
                 </div>
@@ -84,8 +84,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Nombre del Docentes</h5>
+                            <small>Area</small>
                         </div>
                     </div>
                 </div>
@@ -102,8 +102,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Nombre del Docentes</h5>
+                            <small>Area</small>
                         </div>
                     </div>
                 </div>
@@ -120,8 +120,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Nombre del Docentes</h5>
+                            <small>Area</small>
                         </div>
                     </div>
                 </div>
@@ -138,8 +138,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Nombre del Docentes</h5>
+                            <small>Area</small>
                         </div>
                     </div>
                 </div>
@@ -156,8 +156,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Nombre del Docentes</h5>
+                            <small>Area</small>
                         </div>
                     </div>
                 </div>
@@ -174,8 +174,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Nombre del Docentes</h5>
+                            <small>Area</small>
                         </div>
                     </div>
                 </div>
@@ -183,10 +183,10 @@
         </div>
     </div>
     <!-- Team End -->
-        
 
-    <?php 
-    include 'controllers/footer.php'; 
+
+    <?php
+    include 'controllers/footer.php';
     include 'controllers/scripts.php';
     ?>
 </body>
