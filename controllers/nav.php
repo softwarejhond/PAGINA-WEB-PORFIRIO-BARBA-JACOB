@@ -16,12 +16,13 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0 mx-auto">
                 <a href="index.php" class="nav-item nav-link <?php echo ($currentPage == 'index.php') ? 'active' : ''; ?>">Inicio</a>
                 <a href="about.php" class="nav-item nav-link <?php echo ($currentPage == 'about.php') ? 'active' : ''; ?>">Nosotros</a>
-                <a href="programas.php" class="nav-item nav-link <?php echo ($currentPage == 'programas.php') ? 'active' : ''; ?>">Programas</a>
+                <!-- <a href="programas.php" class="nav-item nav-link <?php echo ($currentPage == 'programas.php') ? 'active' : ''; ?>">Programas</a> -->
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle <?php echo ($currentPage == 'team.php' || $currentPage == 'testimonial.php') ? 'active' : ''; ?>" data-bs-toggle="dropdown">Páginas</a>
+                    <a href="programas.php" class="nav-link dropdown-toggle <?php echo ($currentPage == 'software.php' || $currentPage == 'primera-infancia.php' || $currentPage == 'bachillerato.php') ? 'active' : ''; ?>" data-bs-toggle="dropdown">Programas</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="team.php" class="dropdown-item">Nuestro Equipo</a>
-                        <a href="testimonial.php" class="dropdown-item">Testimonios</a>
+                        <a href="software.php" class="dropdown-item">Codificación De Software</a>
+                        <a href="primera-infancia.php" class="dropdown-item">Primera infancia</a>
+                        <a href="bachillerato.php" class="dropdown-item">Validación Del Bachillerato</a>
                     </div>
                 </div>
                 <a href="contact.php" class="nav-item nav-link <?php echo ($currentPage == 'contact.php') ? 'active' : ''; ?>">Contacto</a>
