@@ -30,13 +30,13 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Contactanos</h6>
+                <h6 class="section-title bg-white text-center text-primary px-3">Contacto</h6>
                 <h1 class="mb-5">Contactanos para Cualquier Consulta</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h5>Ponte en Contacto</h5>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui rem distinctio quidem consequatur, culpa suscipit tempore recusandae. Sint dicta amet beatae sit quasi itaque minima dignissimos unde suscipit ratione fugiat eum velit iusto ducimus, voluptatum voluptate possimus dolor aut quam impedit eligendi quidem. Architecto obcaecati ratione mollitia, nulla corporis magni!</p>
+                    <h5>Contactanos</h5>
+                    <p class="mb-4">¿Tienes preguntas o quieres más información? Estamos aquí para ayudarte. Completa el formulario y descubre cómo podemos apoyarte en tu crecimiento. ¡Contáctanos ahora y da el siguiente paso!</p>
                     <div class="d-flex align-items-center mb-3">
                         <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
                             <i class="fa fa-map-marker-alt text-white"></i>

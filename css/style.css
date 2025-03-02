@@ -8,22 +8,27 @@
     /* --light: #F0FBFC;
     --dark: #181d38; */
 }
-img{
+
+img {
     width: 100%;
 }
+
 /* CHANGES ON BOOSTRAP */
 
 /* CHANGES ON BOOSTRAP */
-.logo{
-    position: absolute;
-    top: 20px;
-    left: 20%;
+.logo {
+    /* position: absolute;
+    top: 18%;
+    left: 27%;
     width: 130px;
-    /* z-index: 100; */
+    z-index: 100; */
 }
+
 .logo-nav {
-    width: 50px;
+    width: 100px;
+    padding: 5px;
 }
+
 /* Contenedor flotante */
 .hvr-region {
     position: fixed;
@@ -37,10 +42,10 @@ img{
     z-index: 9999;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-  }
+}
 
-  /* Icono principal (compartir) */
-  .hvr-region .main-icon {
+/* Icono principal (compartir) */
+.hvr-region .main-icon {
     font-size: 30px;
     color: #fff;
     position: absolute;
@@ -48,10 +53,10 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
     transition: opacity 0.3s, transform 0.3s;
-  }
+}
 
-  /* Botones de redes sociales */
-  .hvr-region .btn {
+/* Botones de redes sociales */
+.hvr-region .btn {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -66,52 +71,57 @@ img{
     transition: opacity 0.3s, transform 0.3s;
     font-size: 20px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    pointer-events: none; /* Desactivado por defecto */
-  }
+    pointer-events: none;
+    /* Desactivado por defecto */
+}
 
-  /* Efecto hover para mostrar los botones */
-  .hvr-region:hover {
+/* Efecto hover para mostrar los botones */
+.hvr-region:hover {
     background-color: rgba(255, 255, 255, 0);
-  }
+}
 
-  .hvr-region:hover .main-icon {
+.hvr-region:hover .main-icon {
     opacity: 0;
     transform: translate(-50%, -50%) rotate(180deg);
-  }
+}
 
-  .hvr-region:hover .btn {
+.hvr-region:hover .btn {
     opacity: 1;
-    pointer-events: auto; /* Activar interacción al hover */
-  }
+    pointer-events: auto;
+    /* Activar interacción al hover */
+}
 
-  /* Posición de los botones */
-  .hvr-region:hover .btn1 {
+/* Posición de los botones */
+.hvr-region:hover .btn1 {
     top: -20px;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .hvr-region:hover .btn2 {
+.hvr-region:hover .btn2 {
     top: 50%;
     left: -20px;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .hvr-region:hover .btn3 {
+.hvr-region:hover .btn3 {
     top: 50%;
-    left: 120%; /* Ajustar distancia entre botones */
+    left: 120%;
+    /* Ajustar distancia entre botones */
     transform: translate(-50%, -50%);
-  }
+}
 
-  /* Estilos generales para los enlaces */
-  .hvr-region a {
+/* Estilos generales para los enlaces */
+.hvr-region a {
     text-decoration: none;
     color: inherit;
-  }
-  .hvr-region a:hover {
+}
+
+.hvr-region a:hover {
     background-color: white;
     color: var(--color-primary);
-  }
+}
+
 .fw-medium {
     font-weight: 600 !important;
 }
@@ -184,13 +194,14 @@ img{
 
 
 /*** Navbar ***/
-.navbar > div {
+.navbar>div {
     width: 95%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -211,11 +222,12 @@ img{
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--color-primary-hover);
+    /* color: var(--color-primary-hover); */
+    color: var(--color-primary);
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -271,7 +283,7 @@ img{
         position: relative;
         min-height: 500px;
     }
-    
+
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
@@ -279,7 +291,24 @@ img{
         object-fit: cover;
     }
 }
-
+.content-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(24, 29, 56, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content-carousel .logo {
+    width: 150px;
+    margin-right: 30%;
+    position: relative;
+    bottom: 20px;
+}
 .header-carousel .owl-nav {
     position: absolute;
     top: 50%;
@@ -321,7 +350,7 @@ img{
     background: rgba(15, 23, 43, .7);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -397,8 +426,17 @@ img{
 .course-item:hover img {
     transform: scale(1.1);
 }
-
-
+/* Programs */
+.accordion .accordion-body .bullets-programs li { 
+    color: rgb(82, 86, 91);
+    font-size: 16px;
+}
+.accordion .accordion-body .plain-text li:hover {
+    letter-spacing: normal;
+}
+.accordion-body {
+    text-align: start;
+}
 /*** Team ***/
 .team-item img {
     transition: .5s;
@@ -433,6 +471,7 @@ img{
 }
 
 @media (min-width: 768px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
@@ -440,6 +479,7 @@ img{
 }
 
 @media (min-width: 992px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
