@@ -31,13 +31,13 @@
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="row g-5 mb-5">
+            <div class="row g-5 mb-5 ">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100" src="img/bienvenido.jpg" alt="" style="object-fit: cover;">
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-6 wow fadeInUp d-flex flex-column justify-content-center" data-wow-delay="0.3s">
                     <h1 class="mb-4">¡Bienvenido!</h1>
                     <p class="mb-4">El CENTRO DE EDUCACIÓN NO FORMAL
                         PORFIRIO BARBA JACOB, es responsable con el
@@ -57,7 +57,7 @@
                         <img class="img-fluid position-absolute w-100 h-100" src="img/mision.jpg" alt="" style="object-fit: cover;">
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-6 wow fadeInUp d-flex flex-column justify-content-center" data-wow-delay="0.3s">
                     <h1 class="mb-4">Misión</h1>
                     <p class="mb-4">El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB,
                         formará integralmente a los estudiantes mediante una educación que
@@ -76,7 +76,7 @@
                         <img class="img-fluid position-absolute w-100 h-100" src="img/vision.jpg" alt="" style="object-fit: cover;">
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-6 wow fadeInUp d-flex flex-column justify-content-center" data-wow-delay="0.3s">
                     <h1 class="mb-4">Visión</h1>
                     <p class="mb-4">El CENTRO DE EDUCACIÓN NO FORMAL PORFIRIO BARBA JACOB,
                         será reconocida, para el año 2029, en el Distrito de Ciencia,
@@ -95,7 +95,7 @@
 
     <!-- Team Start -->
     <?php 
-    include 'controllers/teachers.php';
+    //include 'controllers/teachers.php';
     include 'controllers/footer.php';
     include 'controllers/scripts.php';
     ?>
