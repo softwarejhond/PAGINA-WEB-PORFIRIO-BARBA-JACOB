@@ -21,8 +21,8 @@
                     <a href="programas.php" class="nav-link dropdown-toggle <?php echo ($currentPage == 'software.php' || $currentPage == 'primera-infancia.php' || $currentPage == 'bachillerato.php') ? 'active' : ''; ?>" data-bs-toggle="dropdown">Programas</a>
                     <div class="dropdown-menu fade-down m-0">
                         <a href="software.php" class="dropdown-item">Codificación De Software</a>
-                        <a href="primera-infancia.php" class="dropdown-item">Primera infancia</a>
-                        <a href="bachillerato.php" class="dropdown-item">Validación Del Bachillerato</a>
+                        <a href="primera-infancia.php" class="dropdown-item">Primera Infancia</a>
+                        <a href="bachillerato.php" class="dropdown-item">Validación del Bachillerato</a>
                     </div>
                 </div>
                 <a href="contact.php" class="nav-item nav-link <?php echo ($currentPage == 'contact.php') ? 'active' : ''; ?>">Contacto</a>

@@ -89,7 +89,7 @@
                         laborales que propone un paradigma en donde el proceso de enseñanza se percibe y se lleva a
                         cabo como un proceso dinámico, participativo e interactivo del sujeto, de modo que el
                         conocimiento sea una auténtica construcción operada por la persona que aprende.</p>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Leer más</a>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="about.php">Leer más</a>
                 </div>
             </div>
         </div>
