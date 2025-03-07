@@ -14,7 +14,10 @@ img {
 }
 
 /* CHANGES ON BOOSTRAP */
-
+#form select {
+    background-color: white;
+    cursor: pointer;
+}
 /* CHANGES ON BOOSTRAP */
 .logo {
     /* position: absolute;
