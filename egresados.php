@@ -64,7 +64,7 @@
 
                                 <!-- Botón 2 -->
                                 <div class="col-lg-4 col-md-5 col-sm-6 text-center">
-                                    <a href="controllers/encuesta_egresados/index.php" 
+                                    <a href="encuesta_egresados/index.php" 
                                     class="btn py-2 px-4 w-100"
                                     style="font-size:16px; background-color:#001C9B; border-color:#001C9B; color:white; border-radius:8px;">
                                         <i class="bi bi-file-earmark-text-fill"></i> Encuesta actualización <br> de información del Egresado

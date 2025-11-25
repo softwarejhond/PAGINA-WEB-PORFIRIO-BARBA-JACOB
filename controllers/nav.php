@@ -50,11 +50,11 @@
                 </div>
             </li>
                 
-                <!-- 🔥 Botón del Administrador (nuevo) -->
-                <!-- <a href="admin/index.php" 
+                <!-- Botón del Administrador-->
+                 <a href="admin/index.php" 
                    class="nav-item nav-link <?php echo (strpos($_SERVER['PHP_SELF'], '/admin/') !== false) ? 'active' : ''; ?>">
                    Admin
-                </a>                 -->
+                </a>                
             </div>
 
             <!-- Región Q10 -->

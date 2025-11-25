@@ -25,10 +25,9 @@
         <div class="row g-5 justify-content-evenly">
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-3">Links</h4>
-                <a class="btn btn-link" href="about.php">Nocotros</a>
+                <a class="btn btn-link" href="about.php">Nosotros</a>
                 <a class="btn btn-link" href="contact.php">Contacto</a>
-                <a class="btn btn-link" href="#">Políticas de Privacidad</a>
-                <a class="btn btn-link" href="pqrs.php">Pqrs</a>
+                <!-- <a class="btn btn-link" href="">Políticas de Privacidad</a> -->
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-3">Contacto</h4>
@@ -60,7 +59,7 @@
                         &copy; Copyright <?php echo date("Y"); ?> for 
                         <b class="text-white">Instituto Porfirio Barba Jacob</b> 
                     </p>
-                </div>                
+                </div> 
             </div>
         </div>
 </div>

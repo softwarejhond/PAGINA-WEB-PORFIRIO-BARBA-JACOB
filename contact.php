@@ -90,7 +90,7 @@
                             <div class="col-12">
                                 <div class="form-floating">
                                     <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                    <label for="message">Mensake</label>
+                                    <label for="message">Mensaje</label>
                                 </div>
                             </div>
                             <div class="col-12">

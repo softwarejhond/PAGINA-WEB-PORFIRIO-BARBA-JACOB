@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("../Controllers/encuesta_egresados/conexion.php");
+include("conexion.php");
 
 
 // Validar que existan los campos
