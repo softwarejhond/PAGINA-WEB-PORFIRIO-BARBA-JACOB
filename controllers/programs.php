@@ -53,7 +53,7 @@
                             <small class="flex-fill text-center py-2"><i class="fa fa-clock text-primary me-2"></i>3 Semestres</small>
                         </div>
                     </div>
-                </div>-->
+                </div> -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">

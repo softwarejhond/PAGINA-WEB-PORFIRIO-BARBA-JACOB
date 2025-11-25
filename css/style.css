@@ -13,6 +13,7 @@ img {
     width: 100%;
 }
 
+
 /* CHANGES ON BOOSTRAP */
 #form select {
     background-color: white;
@@ -35,7 +36,6 @@ img {
 /* Contenedor flotante */
 .hvr-region {
     position: fixed;
-    bottom: 4%;
     right: 4%;
     border-radius: 50%;
     width: 80px;
@@ -47,6 +47,26 @@ img {
     transition: background-color 0.3s, transform 0.3s;
 }
 
+.hvr-region.region-1 {
+    bottom: 4%;
+}
+
+.hvr-region.region-2 {
+    bottom: 20%;
+}
+
+.hvr-region.region-nav {
+    position: fixed;
+    right: 4%;
+    top: 20px;
+    width: 60px;  /* Reducido de 80px */
+    height: 60px; /* Reducido de 80px */
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+
 /* Icono principal (compartir) */
 .hvr-region .main-icon {
     font-size: 30px;
@@ -56,6 +76,11 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     transition: opacity 0.3s, transform 0.3s;
+}
+
+/* Ajustar el tamaño del texto Q10 */
+.hvr-region.region-nav .main-icon {
+    font-size: 20px;  /* Reducido de 30px */
 }
 
 /* Botones de redes sociales */
@@ -76,6 +101,13 @@ img {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     pointer-events: none;
     /* Desactivado por defecto */
+}
+
+/* Ajustar el tamaño de los botones desplegables */
+.hvr-region.region-nav .btn {
+    width: 40px;     /* Reducido de 50px */
+    height: 40px;    /* Reducido de 50px */
+    font-size: 16px; /* Reducido de 20px */
 }
 
 /* Efecto hover para mostrar los botones */

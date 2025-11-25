@@ -7,6 +7,7 @@
 
 <body>
     <?php include 'controllers/nav.php' ?>
+    
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
@@ -20,8 +21,8 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-10">
-                                <h1 class="display-3 text-white animated slideInDown">¡Tu futuro comienza hoy! Matrículas Abiertas</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Las puertas a tu éxito académico ya están abiertas. Aprovecha la oportunidad de formar parte de una comunidad universitaria que impulsa tu crecimiento personal y profesional.</p>
+                                <h1 class="display-3 text-white animated slideInDown">¡Tu futuro comienza hoy!</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Conoce mas sobre nosotros.</p>
                                 <a href="about.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Leer más</a>
                             </div>
                         </div>
@@ -101,6 +102,38 @@
     include 'controllers/footer.php';
     include 'controllers/scripts.php';
     ?>
+
+    <!-- Imagen Matrículas Abiertas -->
+    <div id="matriculasOverlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 9998; display: none;"></div>
+    <div id="matriculasContainer" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 9999;">
+        <div style="position: relative; display: inline-block;">
+            <a href="https://site2.q10.com/Preinscripcion?aplentId=c7359574-4ea5-481a-83d7-5bcb560189ac" target="_blank" style="cursor: pointer; display: block;">
+                <img src="img/matriculas_abiertas.png" alt="Matrículas Abiertas" style="max-width: 600px; width: 100%; height: auto; box-shadow: 0 4px 20px rgba(0,0,0,0.2); border-radius: 10px;">
+            </a>
+            <button id="cerrarMatriculas" type="button" style="position: absolute; top: -15px; right: -15px; background: white; color: #333; border: none; border-radius: 50%; width: 40px; height: 40px; font-size: 24px; cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+                ×
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Mostrar overlay y imagen al cargar la página
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('matriculasOverlay').style.display = 'block';
+        });
+
+        // Cerrar imagen al hacer clic en el botón
+        document.getElementById('cerrarMatriculas').addEventListener('click', function() {
+            document.getElementById('matriculasContainer').style.display = 'none';
+            document.getElementById('matriculasOverlay').style.display = 'none';
+        });
+
+        // Cerrar al hacer clic en el overlay
+        document.getElementById('matriculasOverlay').addEventListener('click', function() {
+            document.getElementById('matriculasContainer').style.display = 'none';
+            document.getElementById('matriculasOverlay').style.display = 'none';
+        });
+    </script>
 
 </body>
 

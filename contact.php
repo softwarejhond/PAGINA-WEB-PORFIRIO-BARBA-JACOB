@@ -16,9 +16,7 @@
                     <h1 class="display-3 text-white animated slideInDown">Contacto</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Inicio</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Páginas</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Contacto</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="index.php">Inicio</a></li>
                         </ol>
                     </nav>
                 </div>
@@ -92,7 +90,7 @@
                             <div class="col-12">
                                 <div class="form-floating">
                                     <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                    <label for="message">Mensake</label>
+                                    <label for="message">Mensaje</label>
                                 </div>
                             </div>
                             <div class="col-12">

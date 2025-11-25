@@ -12,12 +12,10 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Programas</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Codificación de Software</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Inicio</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Páginas</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Programas</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="index.php">Inicio</a></li>
                         </ol>
                     </nav>
                 </div>

@@ -8,30 +8,31 @@
 <body>
     <?php include 'controllers/nav.php' ?>
     <!-- Header Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 page-header">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Programa</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Inicio</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Páginas</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Programas</li>
-                        </ol>
-                    </nav>
-                </div>
+    <div class="container-fluid py-5 mb-5" style="background: url('img/primera_infancia.jpg') no-repeat center center; background-size: cover; position: relative;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); z-index: 0; "></div>
+
+    <div class="container py-5" style="position: relative; z-index: 1;">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 text-center">
+                <h1 class="display-3 text-white animated slideInDown">Técnico Laborar en Auxiliar de Educación para la Primera Infancia</h1>
+                <nav aria-label="breadcrumb">
+                    <p style="color: white;">
+                        Lic. de funcionamiento N° 03667 del 12 de marzo de 2012 <br>
+                        RESOLUCIÓN NÚMERO 202550064848 DE 21/08/2025 Supervisada por Secretaría de Educación de Medellín. <br>
+                        Certiﬁcación CELAC en Norma Técnica Colombiana NTC 5581.
+                        Sujeto a cambios según politicas institucionales y normatividad legal vigente.
+                    </p>
+                </nav>
             </div>
         </div>
     </div>
+</div>
     <!-- Header End -->
 
     <!-- Courses Start -->
     <div class="container-xxl py-5 mt-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Programas</h6>
-                <h1 class="mb-5">Técnico Laborar en Auxiliar de Educación para la Primera Infancia</h1>
                 <div class="row wow fadeInUp mx-auto" data-wow-delay="0.1s">
                     <div class="col-md-5">
                         <img class="img-fluid" src="img/primera-infancia.jpg" alt="">
@@ -58,7 +59,10 @@
                                         <li class="btn btn-link">Colaborador de profesores.</li>
                                         <li class="btn btn-link">Asistente en áreas de crecimiento y desarrollo infantil.</li>
                                         <li class="btn btn-link">Montar su propio centro de desarrollo infantil.</li>
-                                    </ul>
+                                    </ul>                                    
+                                    <div class="text-center">
+                                        <img src="img/logo-celac.png" alt="logo celac" style="padding: 5px; width: 220px;"> 
+                                    </div>
                                 </div>
                             </div>
                         </div>

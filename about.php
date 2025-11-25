@@ -16,9 +16,7 @@
                     <h1 class="display-3 text-white animated slideInDown">Acerca de Nosotros</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Inicio</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Páginas</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Nosotros</li>
+                            <li class="breadcrumb-item"><a class="text-white">Conoce acerca de nosotros</a></li>
                         </ol>
                     </nav>
                 </div>

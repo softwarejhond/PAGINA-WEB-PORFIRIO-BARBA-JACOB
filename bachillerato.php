@@ -12,12 +12,10 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Programas</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Conocimientos Académicos en Preparación para la Validación del Bachillerato</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Inicio</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Páginas</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Programas</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="index.php">Inicio</a></li>
                         </ol>
                     </nav>
                 </div>
@@ -30,8 +28,6 @@
     <div class="container-xxl py-5 mt-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Programa</h6>
-                <h1 class="mb-5">Conocimientos Académicos en Preparación para la Validación del Bachillerato</h1>
                 <div class="row wow fadeInUp mx-auto" data-wow-delay="0.1s">
                     <div class="col-md-5">
                         <img class="img-fluid" src="img/bachillerato.jpg" alt="">
