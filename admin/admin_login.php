@@ -95,7 +95,30 @@ session_start();
         .login-card .btn-volver:hover {
             background-color: #0056b3;
         }
-    </style>
+    
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .content {
+            flex: 1;
+        }
+        .footer-bottom {
+            background-color: #001C9B !important;
+            padding-top: 16px !important;
+            padding-bottom: 32px !important;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+        }
+        </style>
+
 </head>
 
 <body>
@@ -121,5 +144,10 @@ session_start();
     </form>
 </div>
 
+
 </body>
+
+<?php include('footer.php'); ?>
+
 </html>
+

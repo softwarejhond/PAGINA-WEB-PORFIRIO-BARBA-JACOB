@@ -21,6 +21,7 @@ if (ini_get("session.use_cookies")) {
 session_destroy();
 
 // 3. Redirecciona al index.php
-header("Location: /index.php");
+$redirect = isset($_GET['redirect']) ? $_GET['redirect'] : 'admin_login.php';
+header("Location: $redirect");
 exit(); // Es importante usar exit() después de header()
 ?>

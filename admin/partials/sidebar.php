@@ -4,9 +4,9 @@
 
     <a href="index.php">🏠 Inicio</a>
     <a href="encuestas.php">📄 Encuesta de Egresados</a>
-    <a href="../../index.php">🌐 Volver al sitio</a>
+    <a href="create_user.php">🆕 Crear Nuevo Usuario Administrador</a>
     <div class="logout-button-container">
-    <a href="logout.php" class="btn btn-danger" style="width: 180px; margin: 20px auto 0 auto; display: block;">Cerrar sesión</a>
-</div>
+        <a href="logout.php" class="btn btn-danger" style="width: 180px; margin: 20px auto 0 auto; display: block;">Cerrar sesión</a>
+    </div>
     
 </div>
