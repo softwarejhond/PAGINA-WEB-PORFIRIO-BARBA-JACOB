@@ -84,4 +84,14 @@
     </a>
 </div> -->
 
+<!-- Herramienta de Accesibilidad -->
+<?php 
+$tools_path = (file_exists('tools.php')) ? 'tools.php' : 'controllers/tools.php';
+if (file_exists($tools_path)) {
+    include $tools_path;
+} else if (file_exists('../tools.php')) {
+    include '../tools.php';
+}
+?>
+
 
