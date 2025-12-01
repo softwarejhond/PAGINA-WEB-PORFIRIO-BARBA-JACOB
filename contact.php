@@ -64,40 +64,46 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.124537080397!2d-75.56771922602697!3d6.247315426313297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442857c95fbf0f%3A0x4ac94f864e44f034!2sCl.%2049%20%2345-26%2C%20La%20Candelaria%2C%20Medell%C3%ADn%2C%20La%20Candelaria%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1739406666864!5m2!1ses!2sco" height="450" style="border:0; min-height: 300px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.124537080397!2d-75.56771922602697!3d6.247315426313297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442857c95fbf0f%3A0x4ac94f864e44f034!2sCl.%2049%20%2345-26%2C%20La%20Candelaria%2C%20Medell%C3%ADn%2C%20La%20Candelaria%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1739406666864!5m2!1ses!2sco" height="450" style="border:0; min-height: 300px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <form>
+                    <form id="form">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Your Name">
                                     <label for="name">Tu nombre</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
                                     <label for="email">Tu correo</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
                                     <label for="subject">Asunto</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 150px"></textarea>
                                     <label for="message">Mensaje</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Enviar</button>
+                                <button class="btn btn-primary w-100 py-3" type="submit" id="button">Enviar</button>
                             </div>
                         </div>
                     </form>
+                    <script type="text/javascript"
+                        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+                    <script type="text/javascript">
+                        emailjs.init('44XAK9ne_9flqccdG')
+                    </script>
                 </div>
             </div>
         </div>
@@ -105,10 +111,46 @@
     <!-- Contact End -->
 
 
-    <?php 
-    include 'controllers/footer.php'; 
+    <?php
+    include 'controllers/footer.php';
     include 'controllers/scripts.php';
     ?>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        const btn = document.getElementById('button');
+
+        document.getElementById('form')
+            .addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                btn.value = 'Enviando...';
+
+                const serviceID = 'default_service';
+                const templateID = 'template_b2vgy5g';
+
+                emailjs.sendForm(serviceID, templateID, this)
+                    .then(() => {
+                        btn.value = 'Enviar';
+                        Swal.fire({
+                            icon: 'success',
+                            title: '¡Mensaje Enviado!',
+                            text: 'Gracias por contactarnos. Te responderemos pronto.',
+                            confirmButtonColor: '#06BBCC',
+                            confirmButtonText: 'Aceptar'
+                        });
+                        document.getElementById('form').reset();
+                    }, (err) => {
+                        btn.value = 'Enviar';
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error al enviar',
+                            text: 'Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente.',
+                            confirmButtonColor: '#06BBCC',
+                            confirmButtonText: 'Aceptar'
+                        });
+                    });
+            });
+    </script>
 </body>
 
 </html>

@@ -20,7 +20,8 @@
                         Lic. de funcionamiento N° 03667 del 12 de marzo de 2012 <br>
                         RESOLUCIÓN NÚMERO 202550064848 DE 21/08/2025 Supervisada por Secretaría de Educación de Medellín. <br>
                         Certiﬁcación CELAC en Norma Técnica Colombiana NTC 5581.
-                        Sujeto a cambios según politicas institucionales y normatividad legal vigente.
+                        Sujeto a cambios según politicas institucionales y normatividad legal vigente.<br>
+                        <b style="color: orange;">NO CONDUCE A TÍTULO PROFESIONAL</b>
                     </p>
                 </nav>
             </div>
